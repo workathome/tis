@@ -1,0 +1,122 @@
+%% Inicio del archivo `template-es.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+%stephania.zabala@truextend.com
+
+\documentclass[11pt,letterpaper,sans]{moderncv}   % opciones posibles incluyen tamaño de fuente ('10pt', '11pt' and '12pt'), tamaño de papel ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' y 'landscape') y familia de fuentes ('sans' y 'roman')
+\usepackage[utf8]{inputenc}
+% temas de moderncv
+\moderncvstyle{classic}                        % las opciones de estilo son 'casual' (por omision),'classic', 'oldstyle' y 'banking'
+\moderncvcolor{blue}                          % opciones de color 'blue' (por omision), 'orange', 'green', 'red', 'purple', 'grey' y 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % para seleccionar la fuente por omision, use '\sfdefault' para la fuente sans serif, '\rmdefault' para la fuente roman, o cualquier nombre de fuente
+%\nopagenumbers{}                             % elimine el comentario para suprimir la numeracion automatica de las paginas para CVs mayores a una pagina
+
+% codificacion de caracteres
+%\usepackage[utf8]{inputenc}                  % reemplace con su codificacion
+%\usepackage{CJKutf8}                         % si necesita usa CJK para redactar su CV en chino, japones o coreano
+
+% ajustes para los margenes de pagina
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % si desea cambiar el ando de la columna para las fechas
+
+% datos personales
+\name{Ubaldino}{\\\\Zurita}
+\title{(Hoja de vida)}                   % dato opcional, elimine la linea si no desea el dato
+\address{Av. 9 de abrill, 1189}{Cochabamba} % dato opcional, elimine la linea si no desea el dato
+\phone[mobile]{(591)~74312946}                     % dato opcional, elimine la linea si no desea el dato
+%\phone[fixed]{+2~(345)~678~901}                      % dato opcional, elimine la linea si no desea el dato
+%\phone[fax]{+3~(456)~789~012}                       % dato opcional, elimine la linea si no desea el dato
+\email{ozzirisc@gmail.com}                                 % dato opcional, elimine la linea si no desea el dato
+\homepage{bitbucket.org/ubaldino}                           % dato opcional, elimine la linea si no desea el dato
+\extrainfo{Estudiante de Infomática (UMSS)}                    % dato opcional, elimine la linea si no desea el dato
+\photo[100pt][0.4pt]{ubaldino.jpg}                         % '64pt' es la altura a la que la imagen debe ser ajustada, 0.4pt es grosor del marco que lo contiene (eliga 0pt para eliminar el marco) y 'picture' es el nombre del archivo; dato opcional, elimine la linea si no desea el dato
+%\quote{Alguna cita (opcional)}                       % dato opcional, elimine la linea si no desea el dato
+
+% para mostrar etiquetas numericas en la bibliografia (por omision no se muestran etiquetas), solo es util si desea incluir citas en en CV
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliografia con varias fuentes
+%\usepackage{multibib}
+%\newcites{book,misc}{{Libros},{Otros}}
+%----------------------------------------------------------------------------------
+%            contenido
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % para redactar el CV en chino usando CJK
+\maketitle
+
+\section{Datos Personales}
+\cventry{Nombre y Apellidos}{Ubaldino Zurita}{}{}{}{}  % Los argumentos del 3 al 6 pueden permanecer vacios
+\cventry{Fecha de nacimiento}{16 de mayo de 1988}{}{}{}{}
+\cventry{Lugar de nacimiento}{Cochabamba - Bolivia}{}{}{}{}
+\cventry{Cédula de identidad}{6498429 Cbba}{}{}{}{}
+%\cventry{}{}{}{}{}{}
+\section{Formación Académica}
+\cventry{2006}{Egresado en Humanidades}{Col. Ebenezer}{Ivirgarzama}{\textit{4to de secundaria}}{}  % Los 
+
+\section{Actividad}
+%\subsection{Experiencia Vocacional}
+\cventry{2011 - }{Integrante}{Sociedad científica de Sistemas e informática(UMSS)}{Cochabamba}{\newline{\url{http://scesi.org}}}{}
+\cventry{2011 - 2013}{Integrante}{Hacklab}{Cochabamba}{}{ %\newline{}%
+}
+\cventry{2013}{Creador}{Remasterización OBI-GNU/Linux}{ \newline{\url{http://repoman.scesi.org}}}{}{}
+\cventry{2013 -}{Sawers Technology}{Cochabamba}{\newline{\url{http://sawers.com.bo}}}{}{}
+\section{Idiomas}
+\cvitemwithcomment{Español}{nativo}{lengua materna}
+\cvitemwithcomment{Ingles}{básico}{}
+\cvitemwithcomment{Quechua}{Básico}{}
+
+\section{Conocimientos en Informática}
+\cvdoubleitem{GNU/Linux}{Avanzado}{}{}
+\cvdoubleitem{Windows}{Intermedio}{}{}
+\cvdoubleitem{php}{básico}{}{}
+\cvdoubleitem{java}{básico}{}{}
+\cvdoubleitem{python}{intermedio}{}{}
+\cvdoubleitem{javascript}{básico}{}{}
+\cvdoubleitem{html}{intermedio}{}{}
+\cvdoubleitem{mysql}{básico}{}{}
+\cvdoubleitem{postgresql}{básico}{}{}
+
+\section{Intereses}
+\cvitem{Programación}{Resolver problemas cotidianos mediante las tecnolgias de información}
+\cvitem{Arquitectura de software}{Establecer estandares de desarrollo en equipo}
+\cvitem{Cloud}{Llegar a realizar servicios y aplicaciones en la nube}
+\cvitem{Robótica}{Programación de micro controladores y placas ARM}
+
+\section{Asistencia a cursos}
+\cventry{2011}{MatLab}{}{}{}{}
+\cventry{2011}{Instalacion y configuracion de redes}{}{}{}{}
+\cventry{2011}{Jornadas de Seguridad Informática}{}{}{}{}
+\cventry{2012}{ACM-ICPC}{}{}{}{(STAFF)}
+\cventry{2012}{Latex}{}{}{}{}
+\section{Competencias}
+\cventry{2014}{Nasa App Challenge}{ UCATEC - Cbba }{Equipo Marte}{Primer Lugar}{}
+
+% Las publicaciones tomadas de un archivo de BibTeX sin usar multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+
+
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publicaciones}                   % 'publications' es el nombre del archivo BibTeX
+
+% Las publicaciones tomadas de un archivo BibTeX usando el paquete multibib
+\section{Publicaciones}
+\cventry{2011}{GNOME-SHELL}{Texto de aprendisaje de GNU/Linux, para la OBI}{https://github.com/ubaldino/gnome3}{}{}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}              % 'publications' es el nombre del archivo BibTeX
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}              % 'publications' es el nombre del archivo BibTeX
+
+%\clearpage\end{CJK*}                          % si esta redactando su CV en chino usando CJK, \clearpage es requerido por fancyhdr para que funcione correctamente con CJK, aunque esto eliminara la numeracion de pagina al dejar \lastpage como no definido
+
+\end{document}
+
+
+%% fin del archivo `template-es.tex'.

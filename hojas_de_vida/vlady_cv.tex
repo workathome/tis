@@ -1,0 +1,80 @@
+\documentclass[10pt,letterpaper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex fonname
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Vladimir\\\\}{Cespedes Lopez}
+\title{Hoja de vida}                               % optional, remove / comment the line if not wanted
+\address{Av Barrientos Sacaba}{Cochabamba}{Bolivia}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\phone[mobile]{(591)~70717456}                   % optional, remove / comment the line if not wanted
+\phone[fixed]{(591)~04~4702085}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{vladycespedes@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\photo[100pt][0.4pt]{vlady.jpg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Educación}
+\subsection{Formación Academica}
+\cventry{2013}{Ingenieria de Sistemas}{Universidad Mayor de San Simón UMSS}{Cochabamba}{\textit{Licenciatura}}{Actualmente cursando el 9no semestre de dicha carrera}
+
+\cventry{2008}{Tecnico en Electronica}{Instituto Puerto de Mejillones}{Cochabamba}{\textit{Tecnico Medio}}{}
+
+%\section{Master thesis}
+%\cvitem{title}{\emph{Title}}
+%\cvitem{supervisors}{Supervisors}
+%\cvitem{description}{Short thesis abstract}
+
+\section{Experiencia}
+\subsection{Extra Universitaria}
+\cventry{ 2013-2014}{Cappuchino}{Desarrollador}{UMSS}{}{Organizador de horarios FCyT - basado en html5, css3, javascript y PHP}
+\cventry{abril, 2013}{Centinela}{Desarrollador}{UMSS}{}{ Sistema de identificaci\'on personal}
+\cventry{junio, 2014}{galao}{Desarrollador}{UMSS}{}{ Sistema de presentaciones en la Web}
+
+\subsection{Experiencia Profesional}
+\cventry{ 2013}{TRUEXTEND}{Desarrollador}{}{}{Empresa dedicada al Desarrollo de Software}
+
+
+\subsection{Conocimientos Computacionales}
+\cvdoubleitem{Xamarin,C\#}{Nivel Medio.}{Linux}{Nivel Medio.}
+\cvdoubleitem{C\#}{Nivel Medio.}{Windows}{Nivel Medio.}
+\cvdoubleitem{Javascript}{Nivel Medio.}{MAC-OS}{Nivel Medio.}
+\cvdoubleitem{Java}{Nivel Basico.}{Mariadb}{Nivel Medio.}
+\cvdoubleitem{PHP}{Nivel Medio.}{Mysql}{Nivel Medio.}
+\cvdoubleitem{HTML5}{Nivel Medio.}{BASH}{Nivel Medio.}
+\cvdoubleitem{CSS3}{Nivel B\'asico.}{Android}{Nivel B\'asico.}
+
+\section{Idiomas}
+\cvdoubleitem{Castellano}{Excelente}{Ingles}{Intermedio}{}{}
+
+
+%\cvitem{Música}{Bajista aficionado de rock, en busca de poder combinar de forma armonica dos artes aparentemente separadas, la computación y las notas de una melodia músical}
+                % 'publications' is the name of a BibTeX file
+
+\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
