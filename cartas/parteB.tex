@@ -70,18 +70,108 @@
 
 \chapter{PROPUESTA DE SERVICIOS}
 \section{Descripción del sistema a desarrollar}
-\section{Modalidad del proyecto}
-\subsection{Proceso de desarrollo}
+La empresa TIS es una empresa que se dedica
+al asesoramiento de grupos de desarrollo de software. Este trabajo consiste en acompañar el trabajo
+de un grupo-empresa en el desarrollo de un software. La observación del trabajo de acompañamiento
+permite a los asesores indicar los puntos débiles de un grupo empresa para que la calidad de su
+proceso de desarrollo pueda mejorar.
+La empresa TIS ha decidido desarrollar un sistema computacional para automatizar sus procesos.
+Actualmente la forma en que suceden los procesos es la siguiente:
+\begin{description}
+	\item - Publicación de la convocatoria pública.
+	\item - Publicación de lista de empresas inscritas en fundempresa de TIS.
+	\item - Publicación del pliego de especificaciones.
+	\item - Aclaraciones a la convocatoria y al pliego de especificaciones.
+	\item - Recepción de las propuestas e inscripción de las grupo empresas, cosiderando sus especificidades.
+	\item - Llevar una historia de las actividades en el desarrollo de la convocatoria.
+	\item - Permitir la emisión de  órdenes de cambio de acuerdo a convocatoria.
+	\item - Permitir la emisión de contratos.
+	\item - Permitir el registro de los avances semanales de las grupo empresas.
+	\item - Seguimiento de las grupo empresas, acorde a los que las GE definan como marco de trabajo. Una guia general puede ser tomando un modelo general de seguimiento de proyectos: Actividad, tarea, indicador,fecha de inicio, fecha fin, responsable, producto, observaciones.
+\end{description}
 
+\section{Objetivo General}
+
+Desarrollar un sistema computacional que permita llevar adelante
+los procesos administrativos y de gestión de proyectos de la empresa TIS.
+
+\section{Objetivos especificos}
+
+\section{Modalidad del proyecto}
+Work at Home Soft presenta su propuesta de servicios en la modalidad de desarrollo de un producto de software, tal como exige el pliego de especificaciones PETIS-1707-2014.
+\subsection{Proceso de desarrollo}
+Para el desarrollo del sistema de Apoyo TIS se aplicara una metodologia de desarrollo agil é hibrida "Scrum + Kanban".\\
+Las fases de desarrollo del proyecto son:\\
+\begin{tabular}{ |c|p{4cm}|c|c|r|r| }
+	\hline
+	\multicolumn{6}{ |c| }{Planificación} \\
+	\hline
+	\textbf{Fases} & \textbf{Etapa} & \textbf{Fecha Inicio} & \textbf{Fecha Fin} & \textbf{Dias} & \textbf{Costo Bs.-}\\ \hline
+	1 & Firma Contrato & 2014-09-16 & 2014-09-19 & 1& 1234Bs. \\ \hline
+	2 & Product Backlog & 2014-09-22 & 2014-09-26 & 5& 1234Bs. \\ \hline
+	3 & Sprint 1 & 2014-09-29 & 2014-10-10 & 10& 1234Bs. \\ \hline
+	4 & Sprint 2 & 2014-10-13 & 2014-10-24 & 10& 1234Bs. \\ \hline
+	5 & Sprint 3 & 2014-10-27 & 2014-11-07 & 10& 1234Bs. \\ \hline
+	6 & Sprint 4 & 2014-11-10 & 2014-11-21 & 10& 1234Bs. \\ \hline
+	7 & Capacitación & 2014-11-24 & 2014-11-26 & 3& 1234Bs. \\ \hline
+	7 & Transferencía de tecnologia, implantacion y puesta en marcha & 2014-11-27 & 2014-12-01 & 3& 1234Bs. \\ \hline
+	\multicolumn{4}{|c|}{Total dias hábiles laborales} & 52 & 1222Bs. \\
+	\hline
+\end{tabular}
 \section{Generalidades del sistema}
+
 \subsection{Gestión de Base de Datos}
 \subsection{Gestión de Información}
 
 
 \section{Software para el desarrollo}
 \subsection{Licencias de software}
+Work at Home Soft en cumplimiento con el pliego de especificaciones asegura que la tecnologia y herramientas a utilizar  en el desarrollo del sistema tienen licencia libre, a continuacion se detalla:\\
+\\
+\begin{tabular}{ lccc }
+	\multicolumn{4}{c}{Tecnologia de desarrollo} \\
+	\hline
+	\textbf{Descripción} & \textbf{Tecnologia} & \textbf{Licencia} & \textbf{Referecia} \\ \hline
+	Lenguaje de Programación & PHP 5 & PHP License & \url{http://php.net/copyright.php}\\
+	Framework Backend & Laravel & MIT License & \url{http://opensource.org/licenses/MIT} \\  
+	Gestor de Base de Datos & Mariadb & GPL License & \url{http://www.gnu.org/copyleft/gpl.html} \\
+	Diseño de Base de Datos & Mysql-WorkBench & GPL License & \url{http://www.gnu.org/copyleft/gpl.html}\\
+	Control de Versiones & Git & GPL License & \url{http://www.gnu.org/copyleft/gpl.html}\\
+	Entorno de desarrollo & Vim & GPL-compatible & \url{http://www.gnu.org/copyleft/gpl.html}\\
+	
+	
+\end{tabular}
+\\
+\\Ademas de que el sistema desarrollado en la primera fase ya cumple con este requerimiento.
 \section{Metodología del desarrollo}
-
+Se usara una metodologia de desarrollo hibrida, una mezcla de Scrum y Kanban.\\
+A continuacion se detalla la adopción de esta.
+\subsubsection{Scrum:} 
+Se usara lo siguiente:
+\begin{description}
+	\item - Reuniones establecidas en scrum(Daily Meeting, Sprint Planning Meeting, Sprint Review Meeting, Sprint Retrospective).
+	\item - Roles de scrum(Product Owner, ScrumMaster, Team).
+	\item - Documentos de scrum(Product backlog, Sprint backlog, Burn down chart).
+\end{description}
+\subsubsection{Kanban:} 
+\begin{description}
+	\item - Tablero Kanban.\\
+	Un tablero Kanban, se divide en columnas las cuales representan un proceso de trabajo. En nuestro caso las columnas se dividen en Cola de Espera, Analisis, Desarrollo, Pruebas, Finalizado.
+	\item - Uso correcto de WIP( Work in Progress) Trabajo en progreso.\\
+	Consisten en acordar anticipadamente, la cantidad de ítems que pueden abordarse por cada proceso (es decir, por columnas del tablero).\\
+	El principal objetivo de establecer estos límites, es el de detectar cuellos de botella. 
+	\item - Optimizacion del Flujo de trabajo.\\
+	El objetivo una la producción estable, continua y previsible. Midiendo el tiempo que el ciclo completo de ejecución del proyecto demanda, se obtiene el CycleTime(tiempo de ciclo).
+	\begin{equation}
+	Throughput(rendimiento) = CycleTime/WIP
+	\end{equation}
+	Con estos valores, la optimización del flujo de trabajo consistirá en la búsqueda de:
+	\begin{description}
+		\item Minimizar el CycleTime(tiempo de ciclo).
+		\item Maximizar el Throughput(redimeinto).
+		\item Lograr una variabilidad mínima entre CycleTime y Throughput
+	\end{description}
+\end{description}
 
 \chapter{PLANIFICACIÓN}
 \section{Planificacion global del proyecto}
@@ -89,6 +179,7 @@
 
 
 \chapter{PLAZO DE CONCLUSIÓN DE CONTRATO}
+
 
 \chapter{PROPUESTA ECONÓMICA Y PLAN DE PAGOS}
 
