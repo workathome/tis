@@ -1,0 +1,106 @@
+\documentclass[11pt,letterpaper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{latexsym,amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{pifont}
+\usepackage[pdftex=true,colorlinks=true,plainpages=false]{hyperref}
+\hypersetup{urlcolor=blue}
+\hypersetup{linkcolor=black}
+\hypersetup{citecolor=black}
+\usepackage{lastpage}
+\usepackage{url}
+\usepackage{anysize}
+\marginsize{3cm}{3cm}{1.2cm}{2.3cm}
+\usepackage{fancyhdr}
+\usepackage{anyfontsize}
+\usepackage{tocbibind}
+\usepackage{eso-pic}
+\usepackage{mathptmx}
+\usepackage{draftwatermark}
+\usepackage{multirow}
+\usepackage{pdfpages}
+%\usepackage[usenames,dvipsnames]{xcolor}
+%\usepackage{lipsum}
+%-------------------------
+\setlength{\parindent}{0in}
+\pagestyle{fancy}
+\lhead{}
+\chead{{\Huge \tt Work at Home Soft S.R.L.}\\~\\~ }%\\{\tt \huge ~}\\{\tt \Large -~}}
+\rhead{}
+\lfoot{}
+\cfoot{{\small \tt Av. Maria del Carmen Rodriguez s/n, Zona Pacata Baja Cochabamba.\\ Teléfono: +591-70797024}\\{\Large \tt \url{http://github.com/workathome}}}
+\rfoot{\thepage/\pageref{LastPage}}
+\renewcommand{\headrule}{{\color{black}\hrule width\headwidth height\headrulewidth \vskip-\headrulewidth}}
+\renewcommand{\footrule}{{\color{black}%
+\vskip-\footruleskip\vskip-\footrulewidth
+\hrule width\headwidth height\footrulewidth\vskip\footruleskip}}
+\renewcommand{\headrulewidth}{3pt}
+\renewcommand{\footrulewidth}{3pt}
+\footskip = 32pt
+\headheight = 56pt
+\headsep = 8pt
+%--------------------------
+
+
+\newcommand\BackgroundPic{
+\put(50,707){
+\parbox[b][\paperheight]{\paperwidth}{%
+%\vfill
+%\centering
+\includegraphics[scale=0.83]{img/logo.png}%
+%\vfill
+}}}
+
+%---------------------------
+\SetWatermarkAngle{0}
+\SetWatermarkLightness{0.1}
+%\SetWatermarkFontSize{1cm}
+\SetWatermarkScale{3}
+\SetWatermarkText{\includegraphics[scale=0.33]{img/marca_agua.png}}
+%--------------------------------------
+
+\begin{document}
+\AddToShipoutPicture{\BackgroundPic}
+%	\tableofcontents
+~\\
+~\\
+
+\tableofcontents
+
+\chapter{PROPUESTA DE SERVICIOS}
+\section{Descripción del sistema a desarrollar}
+\section{Modalidad del proyecto}
+\subsection{Proceso de desarrollo}
+
+\section{Generalidades del sistema}
+\subsection{Gestión de Base de Datos}
+\subsection{Gestión de Información}
+
+
+\section{Software para el desarrollo}
+\subsection{Licencias de software}
+\section{Metodología del desarrollo}
+
+
+\chapter{PLANIFICACIÓN}
+\section{Planificacion global del proyecto}
+\section{Planificacion especifica del proyecto}
+
+
+\chapter{PLAZO DE CONCLUSIÓN DE CONTRATO}
+
+\chapter{PROPUESTA ECONÓMICA Y PLAN DE PAGOS}
+
+\section{Propuesta económica}
+\section{Adelanto sobre la firma del contrato}
+\section{Sobre las entregas}
+\section{Plan de pagos}
+
+\chapter{DOCUMENTACION}
+
+\chapter{ANEXOS}
+\section{Gestión de riesgos}
+\section{Estimación De Costos Para El Sistema De Ayuda A La Empresa TIS}
+
+\end{document}
