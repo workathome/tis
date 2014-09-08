@@ -77,18 +77,18 @@ permite a los asesores indicar los puntos débiles de un grupo empresa para que 
 proceso de desarrollo pueda mejorar.
 La empresa TIS ha decidido desarrollar un sistema computacional para automatizar sus procesos.
 Actualmente la forma en que suceden los procesos es la siguiente:
-\begin{description}
-	\item - Publicación de la convocatoria pública.
-	\item - Publicación de lista de empresas inscritas en fundempresa de TIS.
-	\item - Publicación del pliego de especificaciones.
-	\item - Aclaraciones a la convocatoria y al pliego de especificaciones.
-	\item - Recepción de las propuestas e inscripción de las grupo empresas, cosiderando sus especificidades.
-	\item - Llevar una historia de las actividades en el desarrollo de la convocatoria.
-	\item - Permitir la emisión de  órdenes de cambio de acuerdo a convocatoria.
-	\item - Permitir la emisión de contratos.
-	\item - Permitir el registro de los avances semanales de las grupo empresas.
-	\item - Seguimiento de las grupo empresas, acorde a los que las GE definan como marco de trabajo. Una guia general puede ser tomando un modelo general de seguimiento de proyectos: Actividad, tarea, indicador,fecha de inicio, fecha fin, responsable, producto, observaciones.
-\end{description}
+\begin{itemize}
+	\item Publicación de la convocatoria pública.
+	\item Publicación de lista de empresas inscritas en fundempresa de TIS.
+	\item Publicación del pliego de especificaciones.
+	\item Aclaraciones a la convocatoria y al pliego de especificaciones.
+	\item Recepción de las propuestas e inscripción de las grupo empresas, cosiderando sus especificidades.
+	\item Llevar una historia de las actividades en el desarrollo de la convocatoria.
+	\item Permitir la emisión de  órdenes de cambio de acuerdo a convocatoria.
+	\item Permitir la emisión de contratos.
+	\item Permitir el registro de los avances semanales de las grupo empresas.
+	\item Seguimiento de las grupo empresas, acorde a los que las GE definan como marco de trabajo. Una guia general puede ser tomando un modelo general de seguimiento de proyectos: Actividad, tarea, indicador,fecha de inicio, fecha fin, responsable, producto, observaciones.
+\end{itemize}
 
 \section{Objetivo General}
 
@@ -121,8 +121,9 @@ Las fases de desarrollo del proyecto son:\\
 \section{Generalidades del sistema}
 
 \subsection{Gestión de Base de Datos}
+TO-DO
 \subsection{Gestión de Información}
-
+TO-DO
 
 \section{Software para el desarrollo}
 \subsection{Licencias de software}
@@ -148,48 +149,93 @@ Se usara una metodologia de desarrollo hibrida, una mezcla de Scrum y Kanban.\\
 A continuacion se detalla la adopción de esta.
 \subsubsection{Scrum:} 
 Se usara lo siguiente:
-\begin{description}
-	\item - Reuniones establecidas en scrum(Daily Meeting, Sprint Planning Meeting, Sprint Review Meeting, Sprint Retrospective).
-	\item - Roles de scrum(Product Owner, ScrumMaster, Team).
-	\item - Documentos de scrum(Product backlog, Sprint backlog, Burn down chart).
-\end{description}
+\begin{itemize}
+	\item Reuniones establecidas en scrum(Daily Meeting, Sprint Planning Meeting, Sprint Review Meeting, Sprint Retrospective).
+	\item Roles de scrum(Product Owner, ScrumMaster, Team).
+	\item Documentos de scrum(Product backlog, Sprint backlog, Burn down chart).
+\end{itemize}
 \subsubsection{Kanban:} 
-\begin{description}
-	\item - Tablero Kanban.\\
+\begin{itemize}
+	\item Tablero Kanban.\\
 	Un tablero Kanban, se divide en columnas las cuales representan un proceso de trabajo. En nuestro caso las columnas se dividen en Cola de Espera, Analisis, Desarrollo, Pruebas, Finalizado.
-	\item - Uso correcto de WIP( Work in Progress) Trabajo en progreso.\\
+	\item Uso correcto de WIP( Work in Progress) Trabajo en progreso.\\
 	Consisten en acordar anticipadamente, la cantidad de ítems que pueden abordarse por cada proceso (es decir, por columnas del tablero).\\
 	El principal objetivo de establecer estos límites, es el de detectar cuellos de botella. 
-	\item - Optimizacion del Flujo de trabajo.\\
+	\item Optimizacion del Flujo de trabajo.\\
 	El objetivo una la producción estable, continua y previsible. Midiendo el tiempo que el ciclo completo de ejecución del proyecto demanda, se obtiene el CycleTime(tiempo de ciclo).
 	\begin{equation}
 	Throughput(rendimiento) = CycleTime/WIP
 	\end{equation}
 	Con estos valores, la optimización del flujo de trabajo consistirá en la búsqueda de:
-	\begin{description}
+	\begin{enumerate}
 		\item Minimizar el CycleTime(tiempo de ciclo).
 		\item Maximizar el Throughput(redimeinto).
 		\item Lograr una variabilidad mínima entre CycleTime y Throughput
-	\end{description}
-\end{description}
+	\end{enumerate}
+\end{itemize}
 
 \chapter{PLANIFICACIÓN}
 \section{Planificacion global del proyecto}
+A continuacion se presenta la planificación global de actividades acorde con nuestro proceso de desarrollo.
+\begin{center}
+\begin{tabular}{|c|p{4.5cm}|c|p{6cm}|}
+	\hline
+	\multicolumn{4}{|c|}{Planificación global} \\
+	\hline
+	\ Numero & Actividad & Duracion(Dias) & Hitos \\ \hline
+	A1 & Firma del contrato & 1 & Contrato firmado. \\ \hline
+	A2 & Product Backlog & 5 & Documento del Product Backlog. \\ \hline
+	A3 & Sprint I & 10 & Primera versión del sistema. \\ \hline
+	A4 & Sprint II & 10 & Segunda versión del sistema. \\ \hline
+	A5 & Sprint III & 10 & Tercera versión del sistema. \\ \hline
+	A6 & Sprint IV & 10 & Versión final del sistema. \\ \hline
+	A7 & Capacitación & 3 &  Capacitacion a los usuarios finales.\\ \hline
+	A8 & Transferencía de tecnologia, implantacion y puesta en marcha. & 3 & Implantacion de sistema, Codigo fuente, manual técnico  de usuario y de instalación. \\  \hline
+\end{tabular}
+\end{center}
 \section{Planificacion especifica del proyecto}
-
+TO-DO
 
 \chapter{PLAZO DE CONCLUSIÓN DE CONTRATO}
-
+Work at home Soft se compromete a hacer la entrega final el dia 01 de diciembre de 2014.\\
+Con posibilidad de extender el plazo de entrega hasta el dia la fecha 05 de diciembre de 2014 por motivos no previstos y dificultades en el proceso de desarrollo.
 
 \chapter{PROPUESTA ECONÓMICA Y PLAN DE PAGOS}
 
 \section{Propuesta económica}
+
+Work at home se compromete a desarrollar el sistema de apoyo a la empresa TIS por un costo XXXBs. el cual sera remunerado segun como especifica el plan de pagos().
+Para más detalle acerca del cálculo de los costos involucrados en este proyecto vease el anexo 6.2.
+
 \section{Adelanto sobre la firma del contrato}
+
+Work at home Soft solicita un adelanto del 15 \% del monto total a pagar en el momento de firma del contrato con el objetivo de cubrir los gastos iniciales del proyecto.
+
 \section{Sobre las entregas}
+Se entregara una versión incremental del sistema al final de cada iteración, cada versión será validada tanto por el cliente como por el equipo de desarrollo en una reunión conjunta, analizando en su conjunto el software entregado.
 \section{Plan de pagos}
-
+\begin{tabular}{|p{0.8cm}|p{1.5cm}|p{3cm}|p{0.95cm}|p{1cm}|p{3cm}|p{4cm}|}
+	\hline
+	 \multicolumn{7}{|c|}{Plan de Pagos} \\ \hline
+	 \# de pago & Fecha de Pago & Item & Puntaje & Monto Bs. & Producto Entregable & Criterios de Aceptacion \\ \hline
+	 1 & 2014-09-19 & Firma Contrato & 15 \% & 22.121 & Documento del contrato & Ambas partes en mutuo acuerdo con los terminos estipulados en el contrato. \\ \hline
+	 2 & 2014-09-26 & Product Backlog & 5 \% & 22.121 & Lista de todos los requerimientos. & El Product Backlog satisfaga las necesidades necesidades del cliente.Las historias de usuario deben ser no ambiguos y deben estar ordenados segun su retorno de la inversión(ROI).\\ \hline
+	 3 & 2014-10-10 & Sprint I & 15 \% & 11.232 & Historias de usuario del Sprint Backlog funcionando. & Las historias de usuario deben cumplir con sus respectivos criterios de acceptacion.El Sprint Backlog debe tener un 80\% de las historias de usuario terminadas.\\ \hline
+	 4 & 2014-10-24 & Sprint II & 15 \% & 11.232 & Historias de usuario del Sprint Backlog funcionando. & Las historias de usuario deben cumplir con sus respectivos criterios de acceptacion.El Sprint Backlog debe tener un 80\% de las historias de usuario terminadas.\\ \hline
+	 5 & 2014-11-07 & Sprint III & 15 \% & 11.232 & Historias de usuario del Sprint Backlog funcionando. & Las historias de usuario deben cumplir con sus respectivos criterios de acceptacion.El Sprint Backlog debe tener un 80\% de las historias de usuario terminadas.\\ \hline
+	 6 & 2014-11-21 & Sprint IV & 15 \% & 11.232 & Historias de usuario del Sprint Backlog funcionando. & Las historias de usuario deben cumplir con sus respectivos criterios de acceptacion.El Sprint Backlog debe tener un 80\% de las historias de usuario terminadas.\\ \hline
+	 
+\end{tabular}
+\newpage
+\begin{tabular}{|p{0.8cm}|p{1.5cm}|p{3cm}|p{0.95cm}|p{1cm}|p{3cm}|p{4cm}|}
+	\hline
+	7 & 2014-11-26 & Capacitación & 15 \% & 11.232 & Manual de usuario.. & Los usuarios deben tener las nociones minimas de uso del sistema.\\ \hline
+	8 & 2014-11-01 & Transferencia de tecnologia & 15 \% & 11.232 & Manual técnico. Manual de usuario. Manual de instalacion. Codigo fuente. & Sistema correctamente instalado. Manuales en orden y entendibles \\ \hline
+	\multicolumn{3}{|c|}{\textbf{TOTAL PUNTAJE:}} & 100\% & 12.20& & \\ \hline
+\end{tabular}
 \chapter{DOCUMENTACION}
-
+La documentación del manual de usuario esta de acuerdo a los roles especificos, \textbf{Adjuntado}.\\
+TO-DO
 \chapter{ANEXOS}
 \section{Gestión de riesgos}
 \section{Estimación De Costos Para El Sistema De Ayuda A La Empresa TIS}
