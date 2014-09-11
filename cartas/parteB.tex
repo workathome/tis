@@ -20,6 +20,8 @@
 \usepackage{draftwatermark}
 \usepackage{multirow}
 \usepackage{pdfpages}
+\usepackage{array}
+\usepackage{multirow}
 %\usepackage[usenames,dvipsnames]{xcolor}
 %\usepackage{lipsum}
 %-------------------------
@@ -194,7 +196,81 @@ A continuacion se presenta la planificación global de actividades acorde con nu
 \end{tabular}
 \end{center}
 \section{Planificacion especifica del proyecto}
-TO-DO
+\begin{tabular}{|c|p{4cm}|c|c|l|p{3cm}|}
+	\hline
+	\multicolumn{6}{|c|}{Planificacion especifica del proyecto} \\ \hline
+	Actividad & Plan & Fecha Inicio & Fecha Fin & Responsables & Detalle \\ \hline
+	Product & Gestion de Historias  & 22-09-14 & 23-09-14 & Componentes: & Los detalles de las \\
+	Backlog & de usuarios&&& - Team & historias de usuario\\
+	&&&& - Product Owner & \\
+	&&&& - Scrum Master & \\
+	&&&& - Cliente & \\
+	\cline{2-4} \cline{6-6}
+	& Gestion de prioridades& 24-09-14 & 24-09-14 && Los detalles  \\ 
+	& (cliente) y peso(team)&&&&de la prioridades\\ 
+	\cline{2-4} \cline{6-6}
+	& Ordenamiento de & 25-09-14 & 25-09-14 && Los detalles \\
+	& historias de usuario & &&& del ordenamiento. \\
+	\cline{2-4} \cline{6-6}
+	& Desgloze de& 26-09-14 & 26-09-14 && Los detalles \\
+	& historias de usuario & &&& del desgloze. \\
+	& en tareas &&&& \\
+	\hline %Fin del Product Backlog
+	Sprint I& Sprint Planning & 29-09-14 & 29-09-14 &  Componentes: & Los detalles del \\
+	& Designacion de tareas &  &  & - Scrum Master & Sprint I \\
+	& & & & - Team & \\
+	& & & & - Product Owner & \\
+	\cline{2-4} \cline{6-6}
+	& Daily meeting & 30-09-14 & 10-10-14 & & Los detalles del  \\ 
+	& Desarrollo de tareas &&&& Daily meeting\\
+	& Burn down chart &&&& \\
+	\hline %Fin Sprint I
+	Sprint II& Sprint Planning & 13-10-14 & 13-09-14 &  Componentes: & Los detalles del \\
+	& Designacion de tareas &  &  & - Scrum Master & Sprint I \\
+	& & & & - Team & \\
+	& & & & - Product Owner & \\
+	\cline{2-4} \cline{6-6}
+	& Daily meeting & 14-10-14 & 24-10-14 & & Los detalles del  \\ 
+	& Desarrollo de tareas &&&& Daily meeting\\
+	& Burn down chart &&&& \\
+	\hline %Fin Sprint II
+	Sprint III& Sprint Planning & 27-10-14 & 07-11-14 &  Componentes: & Los detalles del \\
+	& Designacion de tareas &  &  & - Scrum Master & Sprint Planning \\
+	& & & & - Team & \\
+	& & & & - Product Owner & \\
+	\cline{2-4} \cline{6-6}
+	& Daily meeting & 30-09-14 & 24-10-14 & & Los detalles del  \\ 
+	& Desarrollo de tareas &&&& Daily meeting\\
+	& Burn down chart &&&& \\
+	\hline %Fin Sprint III
+	Sprint IV& Sprint Planning & 10-11-14 & 10-11-14 &  Componentes: & Los detalles del \\
+	& Designacion de tareas &  &  & - Scrum Master & Sprint I \\
+	& & & & - Team & \\
+	& & & & - Product Owner & \\
+	\cline{2-4} \cline{6-6}
+	& Daily meeting & 11-11-14 & 21-11-14 & & Los detalles del  \\ 
+	& Desarrollo de tareas &&&& Daily meeting\\
+	& Burn down chart &&&& \\
+	\hline %Fin Sprint IV
+	
+\end{tabular}\\
+\newpage
+\begin{tabular}{|c|p{4cm}|c|c|l|p{3cm}|}
+	\hline
+	Implatación & Transferencia de & 24-11-14 & 24-11-14 &  Componentes: & Los detalles del \\
+	Puesta en & Tecnologia, Entrega de &  &  & - Scrum Master & Capacitacion \\
+	marcha& Codigo Fuente & & & - Team & \\
+	\cline{2-4} \cline{6-6}
+	& Implantacion & 25-11-14 & 25-11-14 & & Los detalles del  \\ 
+	& &&&& Daily meeting\\
+	\cline{2-4} \cline{6-6}
+	& Testeo en funcionamento  & 26-11-14 & 26-11-14 && Resultados \\
+	\hline %Fin de la implantación
+	Capacitación & Capacitación a  & 27-11-14 & 01-12-14 &  Componentes: & Los detalles de la \\
+	& usuarios finales &  &  & - Scrum Master & Capacitación \\
+	& & & & - Team & \\
+	\hline %Fin Sprint IV
+\end{tabular}
 
 \chapter{PLAZO DE CONCLUSIÓN DE CONTRATO}
 Work at home Soft se compromete a hacer la entrega final el dia 01 de diciembre de 2014.\\
@@ -218,20 +294,20 @@ Se entregara una versión incremental del sistema al final de cada iteración, c
 	\hline
 	 \multicolumn{7}{|c|}{Plan de Pagos} \\ \hline
 	 \# de pago & Fecha de Pago & Item & Puntaje & Monto Bs. & Producto Entregable & Criterios de Aceptacion \\ \hline
-	 1 & 2014-09-19 & Firma Contrato & 15 \% & 22.121 & Documento del contrato & Ambas partes en mutuo acuerdo con los terminos estipulados en el contrato. \\ \hline
-	 2 & 2014-09-26 & Product Backlog & 5 \% & 22.121 & Lista de todos los requerimientos. & El Product Backlog satisfaga las necesidades necesidades del cliente.Las historias de usuario deben ser no ambiguos y deben estar ordenados segun su retorno de la inversión(ROI).\\ \hline
-	 3 & 2014-10-10 & Sprint I & 15 \% & 11.232 & Historias de usuario del Sprint Backlog funcionando. & Las historias de usuario deben cumplir con sus respectivos criterios de acceptacion.El Sprint Backlog debe tener un 80\% de las historias de usuario terminadas.\\ \hline
-	 4 & 2014-10-24 & Sprint II & 15 \% & 11.232 & Historias de usuario del Sprint Backlog funcionando. & Las historias de usuario deben cumplir con sus respectivos criterios de acceptacion.El Sprint Backlog debe tener un 80\% de las historias de usuario terminadas.\\ \hline
-	 5 & 2014-11-07 & Sprint III & 15 \% & 11.232 & Historias de usuario del Sprint Backlog funcionando. & Las historias de usuario deben cumplir con sus respectivos criterios de acceptacion.El Sprint Backlog debe tener un 80\% de las historias de usuario terminadas.\\ \hline
-	 6 & 2014-11-21 & Sprint IV & 15 \% & 11.232 & Historias de usuario del Sprint Backlog funcionando. & Las historias de usuario deben cumplir con sus respectivos criterios de acceptacion.El Sprint Backlog debe tener un 80\% de las historias de usuario terminadas.\\ \hline
+	 1 & 2014-09-19 & Firma Contrato & 10 \% & 2.450 & Documento del contrato & Ambas partes en mutuo acuerdo con los terminos estipulados en el contrato. \\ \hline
+	 2 & 2014-09-26 & Product Backlog & 10\% & 2.450 & Lista de todos los requerimientos. & El Product Backlog satisfaga las necesidades necesidades del cliente.Las historias de usuario deben ser no ambiguos y deben estar ordenados segun su retorno de la inversión(ROI).\\ \hline
+	 3 & 2014-10-10 & Sprint I & 10\% & 2.450 & Historias de usuario del Sprint Backlog funcionando. & Las historias de usuario deben cumplir con sus respectivos criterios de acceptacion.El Sprint Backlog debe tener un 80\% de las historias de usuario terminadas.\\ \hline
+	 4 & 2014-10-24 & Sprint II & 15 \% & 3.675 & Historias de usuario del Sprint Backlog funcionando. & Las historias de usuario deben cumplir con sus respectivos criterios de acceptacion.El Sprint Backlog debe tener un 80\% de las historias de usuario terminadas.\\ \hline
+	 5 & 2014-11-07 & Sprint III & 15 \% & 3.675 & Historias de usuario del Sprint Backlog funcionando. & Las historias de usuario deben cumplir con sus respectivos criterios de acceptacion.El Sprint Backlog debe tener un 80\% de las historias de usuario terminadas.\\ \hline
+	 6 & 2014-11-21 & Sprint IV & 20 \% & 4.900 & Historias de usuario del Sprint Backlog funcionando. & Las historias de usuario deben cumplir con sus respectivos criterios de acceptacion.El Sprint Backlog debe tener un 80\% de las historias de usuario terminadas.\\ \hline
 	 
 \end{tabular}
 \newpage
 \begin{tabular}{|p{0.8cm}|p{1.5cm}|p{3cm}|p{0.95cm}|p{1cm}|p{3cm}|p{4cm}|}
 	\hline
-	7 & 2014-11-26 & Capacitación & 15 \% & 11.232 & Manual de usuario.. & Los usuarios deben tener las nociones minimas de uso del sistema.\\ \hline
-	8 & 2014-11-01 & Transferencia de tecnologia & 15 \% & 11.232 & Manual técnico. Manual de usuario. Manual de instalacion. Codigo fuente. & Sistema correctamente instalado. Manuales en orden y entendibles \\ \hline
-	\multicolumn{3}{|c|}{\textbf{TOTAL PUNTAJE:}} & 100\% & 12.20& & \\ \hline
+	7 & 2014-11-26 & Capacitación & 10 \% & 2.450 & Manual de usuario.. & Los usuarios deben tener las nociones minimas de uso del sistema.\\ \hline
+	8 & 2014-12-01 & Transferencia de tecnologia & 10 \% & 2.450 & Manual técnico. Manual de usuario. Manual de instalacion. Codigo fuente. & Sistema correctamente instalado. Manuales en orden y entendibles \\ \hline
+	\multicolumn{3}{|c|}{\textbf{TOTAL PUNTAJE:}} & 100\% & 24.500& & \\ \hline
 \end{tabular}
 \chapter{DOCUMENTACION}
 La documentación del manual de usuario esta de acuerdo a los roles especificos, \textbf{Adjuntado}.\\
