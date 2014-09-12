@@ -21,7 +21,10 @@
 \usepackage{multirow}
 \usepackage{pdfpages}
 \usepackage{array}
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
 \usepackage{multirow}
+\usepackage{longtable}
 %\usepackage[usenames,dvipsnames]{xcolor}
 %\usepackage{lipsum}
 %-------------------------
@@ -313,6 +316,7 @@ La documentación del manual de usuario esta de acuerdo a los roles especificos,
 TO-DO
 \chapter{ANEXOS}
 \section{Gestión de riesgos}
+\subsection{Análisis de Probabilidad e impacto}
 \begin{tabular}{|c|l|c|c|}
 	\hline
 	\multicolumn{4}{|c|}{Gestión de riesgos}\\ \hline
@@ -344,6 +348,111 @@ TO-DO
 	R21 & Cambio de Tecnologia & 40\% & medio \\ \hline
 	R22 & Personal inexperto & 5\% & medio \\ \hline
 \end{tabular}
+
+\subsection{Análisis de las Causas}
+
+\begin{longtable}{|l|l|}
+	\hline
+	\multicolumn{1}{|c|}{\textbf{RIESGO}} & \multicolumn{1}{c|}{\textbf{CAUSA}} \\ \hline
+  	\endhead
+	R1 & \begin{minipage}{5in}
+	    \vskip 1pt
+	    \begin{enumerate}
+	   \item Mala planificación del proyecto
+	   \item Imprevistos(paro de transporte, etc)
+	   \end{enumerate}
+	   \vskip 1pt
+	 \end{minipage}\\\hline 
+	R2 & \begin{minipage}{5in}
+		    \vskip 1pt
+		    \begin{enumerate}
+		   \item Deterioro de salud
+		   \item Problemas familiares
+		   \end{enumerate}
+		   \vskip 1pt
+		 \end{minipage}\\\hline
+	R8 & \begin{minipage}{5in}
+			    \vskip 1pt
+			    \begin{enumerate}
+			   \item Mala estimación de presupuesto
+			   \item Mala administración de presupuesto
+			   \end{enumerate}
+			   \vskip 1pt
+			 \end{minipage}\\\hline
+	R9 & \begin{minipage}{5in}
+			    \vskip 1pt
+			    \begin{enumerate}
+			   \item Falta de mantenimiento de los equipos
+			   \item Falla de fábrica
+			   \end{enumerate}
+			   \vskip 1pt
+			 \end{minipage}\\\hline
+	R10 & \begin{minipage}{5in}
+			    \vskip 1pt
+			    \begin{enumerate}
+			   \item Falta de seriedad del cliente
+			   \item Rechazo a requerimientos identificados
+			   \item Ambigüedad en ls requerimientos
+			   \end{enumerate}
+			   \vskip 1pt
+			 \end{minipage}\\\hline
+	R11 & \begin{minipage}{5in}
+				    \vskip 1pt
+				    \begin{enumerate}
+				   \item Poca comunicación con el cliente
+				   \item Falta de experiencia en el diseño de interfaz
+				   \end{enumerate}
+				   \vskip 1pt
+				 \end{minipage}\\\hline 
+	R12 & \begin{minipage}{5in}
+				    \vskip 1pt
+				    \begin{enumerate}
+				   \item Falta de tiempo en el desarrollo
+				   \item Falta de presupuesto
+				   \item Ambigüedad en el requerimiento
+				   \end{enumerate}
+				   \vskip 1pt
+				 \end{minipage}\\\hline
+	R15 & \begin{minipage}{5in}
+				    \vskip 1pt
+				    \begin{enumerate}
+				   \item Falta de disponibilidad de tiempo
+				   \item Falta de comunicación
+				   \item Rencilla entre cliente - equipo 
+				   \end{enumerate}
+				   \vskip 1pt
+				 \end{minipage}\\\hline
+	R16 & \begin{minipage}{5in}
+				    \vskip 1pt
+				    \begin{enumerate}
+				   \item El cliente no conoce el alcance de la tecnología
+				   \item No sabe expresar sus ideas
+				   \item No conoce la necesidad de sus empleados.
+				   \end{enumerate}
+				   \vskip 1pt
+				 \end{minipage}\\\hline
+	R17 & \begin{minipage}{5in}
+				    \vskip 1pt
+				    \begin{enumerate}
+				   \item Falta de mantenimiento preventivo al servidor
+				   \item Mala administración del servidor
+				   \item Ambiente inadecuado para el servidor
+				   \end{enumerate}
+				   \vskip 1pt
+				 \end{minipage}\\\hline
+	R18 & \begin{minipage}{5in}
+				    \vskip 1pt
+				    \begin{enumerate}
+				   \item Servidor de producción limitado
+				   \item Falta de conocimientos sobre nuevas tecnologías cliente/equipo
+				   \item Presupuesto insuficiente para la compra de equipos
+				   \end{enumerate}
+				   \vskip 1pt
+				 \end{minipage}\\\hline
+\end{longtable}
+
+
+\subsection{Plan de Contingencias}
 \section{Estimación De Costos Para El Sistema De Ayuda A La Empresa TIS}
 
 \end{document}
