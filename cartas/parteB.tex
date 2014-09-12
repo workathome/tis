@@ -25,6 +25,8 @@
 \newcommand{\tabitem}{~~\llap{\textbullet}~~}
 \usepackage{multirow}
 \usepackage{longtable}
+\usepackage{lscape}
+\usepackage{pdflscape}
 %\usepackage[usenames,dvipsnames]{xcolor}
 %\usepackage{lipsum}
 %-------------------------
@@ -453,6 +455,150 @@ TO-DO
 
 
 \subsection{Plan de Contingencias}
+
+\begin{longtable}{|l|p{1in}| p{1in} |p{0.7in}|}
+	\hline
+	\multicolumn{1}{|c|}{\bf ACTIVIDAD} & \multicolumn{1}{c|}{\bf TIEMPO} & \multicolumn{1}{c|}{\bf RECURSOS} & \multicolumn{1}{c|}{\bf RESPONSABLE} \\ \hline
+  	\endhead
+  	 \begin{minipage}{2.5in}
+	    \vskip 6pt
+		\underline{R1 Tiempo estimado demasiado pequeño}
+	    \begin{itemize}
+	   \item[{\bf A1}] Investigar la compra de componentes (SW) externos.
+	   \item[{\bf A2}] Descomposición en tareas más
+	   \item[{\bf R3}] Reusar SW
+	   \end{itemize}
+	   \vskip 1pt
+	 \end{minipage}
+	 & Semanalmente & Documento de planificación de proyectos & jefe del proyecto \\\hline 
+	 %-----------------
+	 \begin{minipage}{2.5in}
+	 	    \vskip 6pt
+	 	    \underline{R2 Ausencia de un integrante del equipo}
+	 	    \begin{itemize}
+	 	   \item[{\bf A1}] Motivar al equipo constantemente
+	 	   \item[{\bf A2}] Motivar al equipo constantemente
+	 	   \end{itemize}
+	 	   \vskip 1pt
+	 	 \end{minipage}		
+	 	 & Semanalmente & Recursos económicos & Jefe del proyecto y el equipo \\\hline
+	 %-----------------
+	 \begin{minipage}{2.5in}
+	 	\vskip 6pt
+	    \underline{R8 Insuficiencia de recursos económicas}
+	    \begin{itemize}
+		    \item[{\bf A1}] Realizar cuidadosamente una estimación de recursos
+	   		\item[{\bf A2}] Contar con reservas económicas
+	   		\item[{\bf A3}] Hacer respetar las fechas de pago previa entrega y validación de producto
+	    \end{itemize}
+	   	\vskip 1pt
+	 \end{minipage}	
+	& Antes de la planificación & Departamento de Administración	& Jefe de Proyecto\\\hline
+
+	%-----------------
+	 \begin{minipage}{2.5in}
+		\vskip 6pt
+	  	\underline{ R9 Fallas técnicas de las computadoras }
+	  \begin{itemize}
+	   		\item[{\bf A1}] Realizar mantenimiento preventivo
+	   		\item[{\bf A2}] Adquirir equipos garantizados y con buen soporte técnico 
+	  \end{itemize}
+		   	\vskip 1pt
+	 \end{minipage}	
+		& Quincenalmente & Herramientas e insumos adecuados para el mantenimiento de las computadoras & Todo el equipo\\\hline
+	%-----------------
+	 \begin{minipage}{2.5in}
+		\vskip 6pt
+	  	\underline{ R10 ~ Cambio o aumento de }
+	  	\underline{requerimientos por parte del cliente}
+	  \begin{itemize}
+	   		\item[{\bf A1}] Utilizar una metodología que se adapte a los cambios
+	  \end{itemize}
+		   	\vskip 1pt
+	 \end{minipage}	
+		& Antes de la planificación & Cliente	& Equipo y Jefe de Proyecto\\\hline
+
+	%-----------------
+	 \begin{minipage}{2.5in}
+		\vskip 6pt
+	  	\underline{R11 Interfaz rechazada por el usuario}
+	  \begin{itemize}
+	   		\item[{\bf A1}] La interfaz del usuario debe contemplar la visión de la empresa (logotipo, color, tipo de fuente)
+	   		\item[{\bf A2}] Capacitación del equipo sobre la creación de interfaces
+	  \end{itemize}
+		   	\vskip 1pt
+	 \end{minipage}	
+		& Durante el diseño de las interfaces &	Tiempo del cliente Herramientas de prototipado para la interfaz & Equipo y el cliente\\\hline
+
+
+	%-----------------
+	 \begin{minipage}{2.5in}
+		\vskip 6pt
+	  	\underline{R12 ~ Software no cumple con algún}
+	  	\underline{requerimiento}
+	  \begin{itemize}
+	   		\item[{\bf A1}] Realizar cuidadosamente la planificación
+	   		\item[{\bf A2}] Revisión minuciosa de los requerimientos
+	  \end{itemize}
+		   	\vskip 1pt
+	 \end{minipage}	
+		& Durante la Planificación & Herramientas de seguimiento del proyecto & Equipo\\\hline
+
+	%-----------------
+	 \begin{minipage}{2.5in}
+		\vskip 6pt
+	  	\underline{R15. No se tiene el apoyo por parte del }
+	  	\underline{cliente}
+	  \begin{itemize}
+	   		\item[{\bf A1}] Planificar y aprovechar las reuniones del cliente
+	   		\item[{\bf A2}] Comprometer al cliente
+	  \end{itemize}
+		   	\vskip 1pt
+	 \end{minipage}	
+		& Durante el desarrollo	& Cliente	& Jefe de  Proyecto y equipo\\\hline
+
+
+	%-----------------
+	 \begin{minipage}{2.5in}
+		\vskip 6pt
+	  	\underline{R16. El cliente no tenga idea de}
+	  	\underline{lo que realmente quiere/necesita}
+	  \begin{itemize}
+	   		\item[{\bf A1}] Observar como el usuario realiza su trabajo
+	   		\item[{\bf A2}] Mostrar al usuario sistemas similares al que desea
+	  \end{itemize}
+		   	\vskip 1pt
+	 \end{minipage}	
+		& Al inicio de la etapa de definición del proyecto & Cuestionarios & El equipo\\\hline	
+		
+		%-----------------
+	 \begin{minipage}{2.5in}
+		\vskip 6pt
+	  	\underline{R17. Fallas en el servidor}
+	 	\begin{itemize}
+	   		\item[{\bf A1}] Verificar que el servidor funcione correctamente
+	   		\item[{\bf A2}] Verificar que el servidor cuente con los paquetes adecuados
+	 	\end{itemize}
+		\vskip 1pt
+	 \end{minipage}	
+			& Antes de la implantación del Software	& Hardware y Software Acceso a los servidores & Jefe del Proyecto, Cliente, Equipo\\\hline	
+
+		%-----------------
+	 \begin{minipage}{2.5in}
+		\vskip 6pt
+	  	\underline{R18 La tecnología no alcance las}
+	  	\underline{ espectativas del cliente }
+	 	\begin{itemize}
+	   		\item[{\bf A1}] Verificar la capacidad y limitaciones del servidor 
+	   		\item[{\bf A2}] Actualización y capacitación constante del equipo
+	   		\item[{\bf A3}] Mostrar al cliente las nuevas tecnologías y ver si este esta dispuesto a pagar el costo de estas
+	 	\end{itemize}
+		\vskip 1pt
+	 \end{minipage}	
+			& Antes de la planificación al inicio el proyecto & &		\\\hline			
+
+
+\end{longtable}
 \section{Estimación De Costos Para El Sistema De Ayuda A La Empresa TIS}
 
 \end{document}
