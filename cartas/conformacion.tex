@@ -62,6 +62,16 @@
 \SetWatermarkText{\includegraphics[scale=0.33]{img/marca_agua.png}}
 %--------------------------------------
 
+
+\newcommand\BackgroundPicEscudo{
+\put(50,707){
+\parbox[b][\paperheight]{\paperwidth}{%
+%\vfill
+%\centering
+\includegraphics[scale=0.83]{img/escudo.png}%
+%\vfill
+}}}
+
 \begin{document}
 	\maketitle
 \AddToShipoutPicture{\BackgroundPic}
@@ -369,9 +379,29 @@ El Departamento de Administración en cada caso hará las investigaciones corres
 \today
 \end{flushright}
 
+
 \chapter{ADJUNTO}
+
+
+
+\SetWatermarkText{\includegraphics[scale=0.23]{img/escudo_ma.png}}
+%--------------------------------------
+\ClearShipoutPictureBG
+\AddToShipoutPicture{\BackgroundPicEscudo}
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\chead[\thepage]{\Huge Notaria de Fe Pública} % vuelvo a definir los encabezados
+\lhead[\thepage]{} % vuelvo a definir los encabezados
+\rhead[\thepage]{\Large 00717\thepage} % vuelvo a definir los encabezados
+\cfoot[\thepage]{} % vuelvo a definir los encabezados
+\lfoot[\thepage]{} % vuelvo a definir los encabezados
+\rfoot[\thepage]{} % vuelvo a definir los encabezados
+
+
 \section{Acta de constituci\'on}
-En la notaria No5 de la ciudad de Cochabamba, estando presente el notario de fe p\'ublica Sr Antonio Mamani Quispe, siendo las 14:00 Hrs., del d\'ia 29 de agosto, del a\~no 2014 , se reunieron los socios:\\
+En la notaria No5 de la ciudad de Cochabamba, estando presente el notario de fe p\'ublica Sr Rudy Rafael Ramírez Caero, siendo las 14:00 Hrs., del d\'ia 29 de agosto, del a\~no 2014 , se reunieron los socios:\\
 \begin{enumerate}
 \item Cespedes Lopez Vladimir con cedula de identidad Nro. 7879011 expedido en
 COCHABAMBA
@@ -591,10 +621,10 @@ Se presentaron ante mi en completo uso de sus facultades y sin presi\'on de ning
 
 \begin{center}
 -----------------------------------\\
-{\bf Antonio Mamani Q.}\\
+{\bf Ramírez Caero Rudy Rafael}\\
 Notario de fe p\'ublica\\
 \end{center}
-~\\\vspace{4em}
+~\\\vspace{2em}
 
 ~\\
 ~\\
