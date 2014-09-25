@@ -19,83 +19,83 @@
 			\hline
 			\multicolumn{6}{|c|}{Estado de historias de usuario} \\ \hline
 			Numero  &  Historias de usuario & Criterios de aceptación & A & R & Observaciones \\ \hline
-			\multirow{4}{*}{1} & \multirow{4}{5cm}{\textbf{Yo como} Administrador \textbf{requiero} Administración de cuentas \textbf{Para} Crear cuentas de consultores y dar de baja las cuentas que sean necesarias.} & El administrador solamente podrá registrar cuentas de consultores. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6}
-			& & El administrador solamente podrá dar de baja cuentas de consultores y de grupo empresas. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6}
-			& & Cada consultor deberá tener acceso a su cuenta mediante un nombre único y una contraseña. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6}
-			& & Ningún usuario distinto al  dueño de la cuenta deberá poder ingresar a la misma. &  $\blacksquare$ & &  Desabilitado. \\ \hline
-			2 & \multirow{3}{5cm}{\textbf{Yo como} Grupo – Empresa \textbf{Requiero} Ingresar al sistema \textbf{Para} Ingresar como un usuario que tiene permisos para realizar las consultas y deberes específicos como Grupo – Empresa. } & Las Grupo - Empresas deberán poder registrarse con una cuenta única, que represente a toda la grupo-empresa. & & $\blacksquare$ & Desabilitado. \\ \cline{3-6}
-			& & Cada Grupo – Empresa deberá poder acceder a su cuenta mediante un nombre único y una contraseña. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6}
-			& & Ningún usuario distinto al dueño de la cuenta deberá poder ingresar a la misma. & $\blacksquare$ & & Desabilitado. \\ \hline
-			3 & \multirow{2}{5cm}{\textbf{Yo como} Consultor \textbf{Requiero} Publicar documentos públicos en el Sistema \textbf{Para} que las grupo-empresas pueden descargar el documento publicado.} & El documento debe poder publicarse por algún consultor en formato PDF. &  $\blacksquare$ & & Desabilitado. \\ 
+			\multirow{4}{*}{1} & \multirow{4}{5cm}{\textbf{Yo como} Administrador \textbf{requiero} Administración de cuentas \textbf{Para} Crear cuentas de consultores y dar de baja las cuentas que sean necesarias.} & El administrador solamente podrá registrar cuentas de consultores. & $\blacksquare$ & & Se verificó que existe el formulario de registro y además los datos persisten. \\ \cline{3-6}
+			& & El administrador solamente podrá dar de baja cuentas de consultores y de grupo empresas. & &$\blacksquare$ & El sistema no puede dar de baja a las grupo empresas. \\ \cline{3-6}
+			& & Cada consultor deberá tener acceso a su cuenta mediante un nombre único y una contraseña. & $\blacksquare$ & & Se verificó el ingreso correcto del consultor. \\ \cline{3-6}
+			& & Ningún usuario distinto al  dueño de la cuenta deberá poder ingresar a la misma. &  & $\blacksquare$ &  No se tiene un control exacto de autentificación. \\ \hline
+			2 & \multirow{3}{5cm}{\textbf{Yo como} Grupo – Empresa \textbf{Requiero} Ingresar al sistema \textbf{Para} Ingresar como un usuario que tiene permisos para realizar las consultas y deberes específicos como Grupo – Empresa. } & Las Grupo - Empresas deberán poder registrarse con una cuenta única, que represente a toda la grupo-empresa. & $\blacksquare$ & & Se hizo la prueba correspondiente y se verifico de que efectivamente las grupo-empresa pueden registrarse con un usuario unico. \\ \cline{3-6}
+			& & Cada Grupo – Empresa deberá poder acceder a su cuenta mediante un nombre único y una contraseña. & $\blacksquare$ & & Se verifico que cada grupo-empresa se puede registrar correctamente con un nombre unico y contraseña. \\ \cline{3-6}
+			& & Ningún usuario distinto al dueño de la cuenta deberá poder ingresar a la misma. & & $\blacksquare$ & No se tiene un control exacto de autentificación. \\ \hline
+			3 & \multirow{2}{5cm}{\textbf{Yo como} Consultor \textbf{Requiero} Publicar documentos públicos en el Sistema \textbf{Para} que las grupo-empresas pueden descargar el documento publicado.} & El documento debe poder publicarse por algún consultor en formato PDF. &  & $\blacksquare$ & La ruta de subir archivo no tiene la funcionalidad de subir archivos. \\ 
 			& & & & & \\ \cline{3-6}
 			& & & & & \\
-			& & El documento solamente deberá poder descargarse. & $\blacksquare$ & & Desabilitado. \\ 
+			& & El documento solamente deberá poder descargarse. & & $\blacksquare$ &  No se puede comprobar ya que no tiene la funcionalidad de subir archivo.\\ 
 			& & & & & \\ \hline
-			4 & \textbf{Yo como} grupo – empresa \textbf{Requiero} Descargar documentos públicos subidos por los consultores, \textbf{Para} Poder visualizar el documento en formato PDF. & El documento solamente deberá poder descargarse. & $\blacksquare$ & & Desabilitado. \\ \hline
-			5 & \multirow{2}{5cm}{\textbf{Yo como} Consultor \textbf{Requiero} Establecer fechas o hitos de la propuesta (Actividades) \textbf{Para} Definir fechas para la entrega de propuestas, ordenes de cambio y firma del contrato.} & Estas fechas deben ser visibles para todas las grupo-empresas y consultores. & $\blacksquare$ & & Desabilitado. \\ 
+			4 & \textbf{Yo como} grupo – empresa \textbf{Requiero} Descargar documentos públicos subidos por los consultores, \textbf{Para} Poder visualizar el documento en formato PDF. & El documento solamente deberá poder descargarse. & & $\blacksquare$ & Debido a que en  H.U. 3 no existe funcionalidad de subir archivo este criterio de validacion queda invalidada porque no se refleja Archivos en recursos de la grupo-empresa. \\ \hline
+			5 & \multirow{2}{5cm}{\textbf{Yo como} Consultor \textbf{Requiero} Establecer fechas o hitos de la propuesta (Actividades) \textbf{Para} Definir fechas para la entrega de propuestas, ordenes de cambio y firma del contrato.} & Estas fechas deben ser visibles para todas las grupo-empresas y consultores. & & $\blacksquare$ & Es visible para la sesion de consultor pero no muestra nada en la sesion de la grupo-empresa. \\ 
 			& & & & & \\ \cline{3-6}
 			& & & & & \\
-			& & Estas fechas serán únicamente modificadas por los consultores. & $\blacksquare$ & & Desabilitado. \\
+			& & Estas fechas serán únicamente modificadas por los consultores. & & $\blacksquare$ & El consultor no tiene el formulario para modificar las fechas de las actividades.\\
 			& & & & & \\ \hline
 		\end{tabular}
 		\newpage
 		\begin{tabular}{|c|p{5cm}|p{7.5cm}|c|c|p{7.5cm}|}
 			\hline
-				6 & \multirow{3}{5cm}{\textbf{Yo como} Grupo – Empresa \textbf{Requiero} Registrar los datos más importantes de los socios de la grupo – empresa, \textbf{Para} El consultor podrá acceder a estos datos de ser necesario.} & El registro consta de los siguientes datos ( nombre completo , dirección, teléfono) &	$\blacksquare$ & & Desabilitado. \\ \cline{3-6}
-				& & Debe diferenciarse el representante legal del resto de los socios. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6}
-				& & El consultor podrá solamente ver la información de los socios de las grupo – empresas. & & $\blacksquare$ & Desabilitado. \\ \hline
-				7 & \textbf{Yo como} Grupo – Empresa \textbf{Requiero} Fijar un día de reunión o seguimiento semanal, \textbf{Para} Tener fijo un día de reuniones en los cuales se registrara el avance del proyecto. & 	Este día seleccionado deberá mostrarse cada semana en el sistema de seguimiento del proyecto. &  & $\blacksquare$ & Desabilitado. \\ \hline
-				8 & \multirow{2}{5cm}{\textbf{Yo como} Consultor \textbf{Requiero} Generar un contrato, \textbf{Para} Generar automáticamente un contrato con un formato establecido y con los respectivos datos de las grupo-empresas.} & El contrato deberá mostrarse en un formato PDF. &  $\blacksquare$ & & Desabilitado. \\ \cline{3-6} 
-				& & El contrato deberá generarse con los siguientes datos requeridos (nombre largo y corto de la empresa, código de referencia a documento CPTIS, nombres de los consultores y nombre representante legal). &   & $\blacksquare$ & Desabilitado. \\ \hline
-				9 & \multirow{3}{5cm}{\textbf{Yo como} Grupo – Empresa \textbf{Requiero} Subir parte A de la propuesta, \textbf{Para} Subir la parte A de la propuesta al sistema.} & El formato de la parte A de la propuesta solo se podrá subir en formato PDF. &  $\blacksquare$ & & Desabilitado. \\ \cline{3-6} 
-				& & Debe registrarse la hora y fecha de la subida de la parte A. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6} 
-				& & El documento solo lo podrán descargar la grupo-empresa a la que pertenece y el consultor. & $\blacksquare$ & & Desabilitado. \\ \hline 
-				10 & \multirow{3}{5cm}{\textbf{Yo como} Grupo – Empresa \textbf{Requiero} Subir parte B de la propuesta \textbf{Para} Subir la parte B de la propuesta al sistema.} & El formato de la parte B de la propuesta solo se podrá subir en formato PDF. &  $\blacksquare$ & & Desabilitado. \\ \cline{3-6} 
-				& & Debe registrarse la hora y fecha de la subida de la parte B. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6} 
-				& & El documento solo lo podrán descargar la grupo-empresa a la que pertenece y el consultor. & $\blacksquare$ & & Desabilitado. \\ \hline
+				6 & \multirow{3}{5cm}{\textbf{Yo como} Grupo – Empresa \textbf{Requiero} Registrar los datos más importantes de los socios de la grupo – empresa, \textbf{Para} El consultor podrá acceder a estos datos de ser necesario.} & El registro consta de los siguientes datos ( nombre completo , dirección, teléfono) &	& $\blacksquare$ & Le falta numero de telefono en los datos de socio. \\ \cline{3-6}
+				& & Debe diferenciarse el representante legal del resto de los socios. & $\blacksquare$ & & El sistema se asegura de que la grupo-empresa tenga un solo representante legal.\\ \cline{3-6}
+				& & El consultor podrá solamente ver la información de los socios de las grupo – empresas. & & $\blacksquare$ & No hay una vista que muestre la lista de socios de la grupo-empresa en la sesión del consultor.\\ \hline
+				7 & \textbf{Yo como} Grupo – Empresa \textbf{Requiero} Fijar un día de reunión o seguimiento semanal, \textbf{Para} Tener fijo un día de reuniones en los cuales se registrara el avance del proyecto. & 	Este día seleccionado deberá mostrarse cada semana en el sistema de seguimiento del proyecto. &  & $\blacksquare$ & Solo se muestra en el calendario en la semana que se fija la reunion pero no asi en las semanas posteriores.\\ \hline
+				8 & \multirow{2}{5cm}{\textbf{Yo como} Consultor \textbf{Requiero} Generar un contrato, \textbf{Para} Generar automáticamente un contrato con un formato establecido y con los respectivos datos de las grupo-empresas.} & El contrato deberá mostrarse en un formato PDF. &  & $\blacksquare$ & No se muestra nada. \\ \cline{3-6} 
+				& & El contrato deberá generarse con los siguientes datos requeridos (nombre largo y corto de la empresa, código de referencia a documento CPTIS, nombres de los consultores y nombre representante legal). &   & $\blacksquare$ & No genera el contrato de trabajo.\\ \hline
+				9 & \multirow{3}{5cm}{\textbf{Yo como} Grupo – Empresa \textbf{Requiero} Subir parte A de la propuesta, \textbf{Para} Subir la parte A de la propuesta al sistema.} & El formato de la parte A de la propuesta solo se podrá subir en formato PDF. & & $\blacksquare$ & \textbf{NO IMPLEMENTADO.} \\ \cline{3-6} 
+				& & Debe registrarse la hora y fecha de la subida de la parte A. & & $\blacksquare$ & \textbf{NO IMPLEMENTADO.} \\ \cline{3-6} 
+				& & El documento solo lo podrán descargar la grupo-empresa a la que pertenece y el consultor. & & $\blacksquare$ & \textbf{NO IMPLEMENTADO.} \\ \hline 
+				10 & \multirow{3}{5cm}{\textbf{Yo como} Grupo – Empresa \textbf{Requiero} Subir parte B de la propuesta \textbf{Para} Subir la parte B de la propuesta al sistema.} & El formato de la parte B de la propuesta solo se podrá subir en formato PDF. & &  $\blacksquare$ & \textbf{NO IMPLEMENTADO.} \\ \cline{3-6} 
+				& & Debe registrarse la hora y fecha de la subida de la parte B. & & $\blacksquare$ & \textbf{NO IMPLEMENTADO.} \\ \cline{3-6} 
+				& & El documento solo lo podrán descargar la grupo-empresa a la que pertenece y el consultor. & & $\blacksquare$ & \textbf{NO IMPLEMENTADO.} \\ \hline
 		\end{tabular}
 		\newpage
 		\begin{tabular}{|c|p{5cm}|p{7.5cm}|c|c|p{7.5cm}|}
 			\hline
-			11 & \textbf{Yo como} Consultor \textbf{Requiero} Lista de las propuestas subidas al sistema, \textbf{Para} Poder descargar las propuestas (parte A, parte B) y diferenciarlas de las que llegaron a destiempo. & 	Diferenciar las propuestas por fecha de subida (las propuestas que llegaron a destiempo, deben diferenciarse de las demás). &  $\blacksquare$ & & Desabilitado. \\ \hline
+			11 & \textbf{Yo como} Consultor \textbf{Requiero} Lista de las propuestas subidas al sistema, \textbf{Para} Poder descargar las propuestas (parte A, parte B) y diferenciarlas de las que llegaron a destiempo. & 	Diferenciar las propuestas por fecha de subida (las propuestas que llegaron a destiempo, deben diferenciarse de las demás). &  & $\blacksquare$ & \textbf{NO IMPLEMENTADO.} \\ \hline
 			12 & \multirow{4}{5cm}{\textbf{Yo como} Grupo – Empresa \textbf{Requiero} Registrar un avance semanal, 	\textbf{Para} Poder demostrar que la empresa está cumpliendo con el plan especificado.} & Los registros deberán ser realizados el día acordado
-			según calendario. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6} 
-			& & Los avances registrados, los podrán visualizar tanto las grupo empresas como los consultores. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6} 
-			& & El registro de los avances serán de forma literal. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6} 
-			& & Los avances registrados no se podrán modificar ni eliminar por ningún consultor o grupo empresa. & $\blacksquare$ & & Desabilitado. \\ \hline
-			13 & \multirow{4}{5cm}{\textbf{Yo como} Consultor \textbf{Requiero} Visualizar la intención de avance de cada grupo-empresa y registrar el avance realizado \textbf{Para} Verificar que cada grupo-empresa está cumpliendo con el plan propuesto.} & El consultor podrá visualizar la intención de avance de cada grupo empresa. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6} 
-			& & El consultor podrá registrar un detalle acerca el avance de cada grupo empresa. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6} 
-			& & El consultor podrá registrar observaciones acerca el avance de cada grupo empresa. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6} 
-			& & El registro de observaciones solo debe ser visualizado por el mismo consultor. &  $\blacksquare$ & & Desabilitado. \\ 
+			según calendario. & & $\blacksquare$ & En el sistema actual es posible ver el dia que se tendran las reuniones semanales y quedar con quien se hablara ese dia y dejar una pequena descripcion de lo que se realizara dicho dia. \\ \cline{3-6} 
+			& & Los avances registrados, los podrán visualizar tanto las grupo empresas como los consultores. & & $\blacksquare$ & Debido a que no existe un lugar donde se puede observar los avances realizados de las grupo empresas este criterio de aceptación se ve invalidado. \\ \cline{3-6} 
+			& & El registro de los avances serán de forma literal. & $\blacksquare$ & & Sin observaciones. \\ \cline{3-6} 
+			& & Los avances registrados no se podrán modificar ni eliminar por ningún consultor o grupo empresa. & & $\blacksquare$ & Puesto que dichos avances no se observan en el sistema actual no se cumple con este criterio de aceptacion. \\ \hline
+			13 & \multirow{4}{5cm}{\textbf{Yo como} Consultor \textbf{Requiero} Visualizar la intención de avance de cada grupo-empresa y registrar el avance realizado \textbf{Para} Verificar que cada grupo-empresa está cumpliendo con el plan propuesto.} & El consultor podrá visualizar la intención de avance de cada grupo empresa. & & $\blacksquare$ & No existe la funcionalidad. \\ \cline{3-6} 
+			& & El consultor podrá registrar un detalle acerca el avance de cada grupo empresa. & & $\blacksquare$ & No existe la funcionalidad. \\ \cline{3-6} 
+			& & El consultor podrá registrar observaciones acerca el avance de cada grupo empresa. & & $\blacksquare$ & No existe la funcionalidad. \\ \cline{3-6} 
+			& & El registro de observaciones solo debe ser visualizado por el mismo consultor. &  & $\blacksquare$ & No existe la funcionalidad.\\ 
 			&&&&& \\ \hline
-			14 & \multirow{2}{5cm}{\textbf{Yo como} Consultor \textbf{Requiero} una forma de aclarar a las grupo empresas acerca de la convocatoria y el pliego de especificaciones, \textbf{Para} poder aclarar cualquier duda de las grupo empresas acerca de la convocatoria y el pliego de especificaciones.} & Proponer y responder dudas a través de un foro. & $\blacksquare$ & & Desabilitado. \\ 
+			14 & \multirow{2}{5cm}{\textbf{Yo como} Consultor \textbf{Requiero} una forma de aclarar a las grupo empresas acerca de la convocatoria y el pliego de especificaciones, \textbf{Para} poder aclarar cualquier duda de las grupo empresas acerca de la convocatoria y el pliego de especificaciones.} & Proponer y responder dudas a través de un foro. & & $\blacksquare$ & No se pueden responder dudas. \\ 
 			&&&&& \\
 			&&&&& \\ \cline{3-6}
 			&&&&& \\
 			&&&&& \\
-			& & Cualquier usuario puede acceder al foro. & $\blacksquare$ & & Desabilitado. \\ 
+			& & Cualquier usuario puede acceder al foro. & $\blacksquare$ & & Cualquier usuario puede acceder al foro.4\\ 
 			&&&&& \\
 			&&&&&\\ \hline
 		\end{tabular}
 		\newpage
 		\begin{tabular}{|c|p{5cm}|p{7.5cm}|c|c|p{7.5cm}|}
 			\hline
-			15 & \multirow{3}{5cm}{\textbf{Yo como} Consultor \textbf{Requiero} Visualizar bitácora de actividades, \textbf{Para} poder ver todas las actividades de las grupo empresas en el sistema.} & Todas las actividades de subida de archivos que realicen las grupo empresas deben registrarse en la bitácora. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6}
-			& & La bitácora de actividades podrá ser visualizada por las grupo-empresas y el consultor respectivo. & & $\blacksquare$  & Desabilitado. \\ \cline{3-6}
-			& & Todo registro de actividad contara con hora y fecha. & & $\blacksquare$  & Desabilitado. \\ \hline
-			16 & \multirow{3}{5cm}{\textbf{Yo como} Consultor \textbf{Requiero} Crear un proyecto, \textbf{Para} Poder registrar un código del proyecto.} & Las grupo-empresas puedan registrarse según el proyecto vigente. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6}
-			& & Solo puede existir un proyecto vigente. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6}
-			& & El proyecto debe poderse dar de baja. & $\blacksquare$ & & Desabilitado. \\ \hline
-			17 & \multirow{3}{5cm}{\textbf{Yo como} Grupo-empresa \textbf{Requiero} Registrar un plan de pagos, \textbf{Para} poder tener un calendario de seguimiento.} & Los hitos del plan no pueden ser modificados. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6}
-			& & Las fechas de pago deben ser sincronizadas con un calendario & $\blacksquare$ & & Desabilitado. \\ \cline{3-6}
-			& & La suma total de los montos por cada hito debe ser el total a pagar por el proyecto & $\blacksquare$ & & Desabilitado. \\ \hline
-			18 & \multirow{3}{5cm}{\textbf{Yo como} Consultor \textbf{Requiero} realizar una evaluación final, \textbf{Para} Determinar la nota final de cada grupo-empresa.} & Los criterios de evaluación pueden ser ilimitados & $\blacksquare$ & & Desabilitado. \\ \cline{3-6} 
-			& & El tipo de calificación de cada criterio puede ser diferente para cada uno de ellos & $\blacksquare$ & & Desabilitado. \\ \cline{3-6} 
-			& & Cada criterio puede tener un porcentaje de calificación independiente. & $\blacksquare$ & & Desabilitado. \\ \hline
-			19 & \multirow{4}{5cm}{\textbf{Yo como} Consultor \textbf{Requiero} registro de hitos aprobados, \textbf{Para} Tener un seguimiento de los hitos aprobados por el consultor a la grupo-empresa.} & Los valores de los pagos establecidos por la grupo empresa no pueden ser modificados por ningún consultor o grupo empresa una vez establecido. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6} 
-			& & La fecha de pago debe hacer referencia a un hito pagable registrado por la grupo empresa. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6} 
-			& & Se registrara el número de factura correspondiente a cada pago. & $\blacksquare$ & & Desabilitado. \\ \cline{3-6} 
-			& & El valor de un pago nunca puede ser negativo. & $\blacksquare$ & & Desabilitado. \\ \hline 
+			15 & \multirow{3}{5cm}{\textbf{Yo como} Consultor \textbf{Requiero} Visualizar bitácora de actividades, \textbf{Para} poder ver todas las actividades de las grupo empresas en el sistema.} & Todas las actividades de subida de archivos que realicen las grupo empresas deben registrarse en la bitácora. &  & $\blacksquare$ & \textbf{NO IMPLEMENTADO.} \\ \cline{3-6}
+			& & La bitácora de actividades podrá ser visualizada por las grupo-empresas y el consultor respectivo. &  & $\blacksquare$ & \textbf{NO IMPLEMENTADO.} \\ \cline{3-6}
+			& & Todo registro de actividad contara con hora y fecha. & & $\blacksquare$ & \textbf{NO IMPLEMENTADO.} \\ \hline
+			16 & \multirow{3}{5cm}{\textbf{Yo como} Consultor \textbf{Requiero} Crear un proyecto, \textbf{Para} Poder registrar un código del proyecto.} & Las grupo-empresas puedan registrarse según el proyecto vigente. & & $\blacksquare$ & Las grupo empresas pueden registrarse, pero no se sabe a que proyecto vigente se adjudican. \\ \cline{3-6}
+			& & Solo puede existir un proyecto vigente. & & $\blacksquare$ & Pueden existir mas de un proyecto vigente. \\ \cline{3-6}
+			& & El proyecto debe poderse dar de baja. & & $\blacksquare$ & Los proyectos no pueden ser dados de baja. \\ \hline
+			17 & \multirow{3}{5cm}{\textbf{Yo como} Grupo-empresa \textbf{Requiero} Registrar un plan de pagos, \textbf{Para} poder tener un calendario de seguimiento.} & Los hitos del plan no pueden ser modificados. & $\blacksquare$ & & Sin observaciones. \\ \cline{3-6}
+			& & Las fechas de pago deben ser sincronizadas con un calendario & $\blacksquare$ & & Sin observaciones. \\ \cline{3-6}
+			& & La suma total de los montos por cada hito debe ser el total a pagar por el proyecto & & $\blacksquare$ & Al momento de crear los hitos estos pueden sobrepasar el monto total. \\ \hline
+			18 & \multirow{3}{5cm}{\textbf{Yo como} Consultor \textbf{Requiero} realizar una evaluación final, \textbf{Para} Determinar la nota final de cada grupo-empresa.} & Los criterios de evaluación pueden ser ilimitados & & $\blacksquare$ & Los criterios de validación son limitados ya que solo aceptan un solo criterio de validación. \\ \cline{3-6}
+			& & El tipo de calificación de cada criterio puede ser diferente para cada uno de ellos & $\blacksquare$ & & Sin observaciones. \\ \cline{3-6} 
+			& & Cada criterio puede tener un porcentaje de calificación independiente. & $\blacksquare$ & & Sin observaciones. \\ \hline
+			19 & \multirow{4}{5cm}{\textbf{Yo como} Consultor \textbf{Requiero} registro de hitos aprobados, \textbf{Para} Tener un seguimiento de los hitos aprobados por el consultor a la grupo-empresa.} & Los valores de los pagos establecidos por la grupo empresa no pueden ser modificados por ningún consultor o grupo empresa una vez establecido. & $\blacksquare$ & & Sin observaciones. \\ \cline{3-6} 
+			& & La fecha de pago debe hacer referencia a un hito pagable registrado por la grupo empresa. & $\blacksquare$ & & Sin observaciones. \\ \cline{3-6} 
+			& & Se registrara el número de factura correspondiente a cada pago. & & $\blacksquare$ & No existe un formulario de registro para  el numero de factura correspondiente a cada pago. \\ \cline{3-6} 
+			& & El valor de un pago nunca puede ser negativo. & $\blacksquare$ & & Sin observaciones. \\ \hline 
 		\end{tabular}
 	\end{landscape}
 \end{document}
