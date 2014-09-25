@@ -11,9 +11,43 @@
 \usepackage{amssymb}
 \usepackage{multirow}
 \usepackage{anysize}
-\title{Prueba}
+\usepackage{fancyhdr}
+\usepackage{anyfontsize}
+\usepackage{tocbibind}
+\usepackage{eso-pic}
+\usepackage{mathptmx}
+\usepackage{draftwatermark}
+\usepackage{multirow}
+\usepackage{pdfpages}
+\usepackage{array}
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{lscape}
+\usepackage{pdflscape}
+\usepackage{fancyref}
+\title{Lista de funcionalidades existentes en el sistema actual}
 \marginsize{1.5cm}{1.5cm}{1.5cm}{1.5cm}
+\newcommand\BackgroundPic{
+	\put(50,707){
+		\parbox[b][\paperheight]{\paperwidth}{%
+			%\vfill
+			%\centering
+			\includegraphics[scale=0.83]{../cartas/img/logo.png}%
+			%\vfill
+		}}}
+		
+		%---------------------------
+		\SetWatermarkAngle{0}
+		\SetWatermarkLightness{0.1}
+		%\SetWatermarkFontSize{1cm}
+		\SetWatermarkScale{3}
+		\SetWatermarkText{\includegraphics[scale=0.33]{../cartas/img/marca_agua.png}}
+		%--------------------------------------		--------------------
+		
 \begin{document}
+	\maketitle
 	\begin{landscape}
 		\begin{tabular}{|c|p{5cm}|p{7.5cm}|c|c|p{7.5cm}|}
 			\hline

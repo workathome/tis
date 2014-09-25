@@ -1,0 +1,549 @@
+\documentclass[11pt,letterpaper]{report}
+
+\usepackage[letterpaper]{geometry}
+
+\title{\Huge Parte-B}
+\author{Work at Home Soft}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{latexsym,amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{pifont}
+\usepackage[pdftex=true,colorlinks=true,plainpages=false]{hyperref}
+\hypersetup{urlcolor=blue}
+\hypersetup{linkcolor=black}
+\hypersetup{citecolor=black}
+\usepackage{lastpage}
+\usepackage{url}
+\usepackage{anysize}
+\marginsize{3cm}{3cm}{1.2cm}{2.3cm}
+\usepackage{fancyhdr}
+\usepackage{anyfontsize}
+\usepackage{tocbibind}
+\usepackage{eso-pic}
+\usepackage{mathptmx}
+\usepackage{draftwatermark}
+\usepackage{multirow}
+\usepackage{pdfpages}
+\usepackage{array}
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{lscape}
+\usepackage{pdflscape}
+\usepackage{fancyref}
+%\usepackage[usenames,dvipsnames]{xcolor}
+%\usepackage{lipsum}
+%-------------------------
+\setlength{\parindent}{0in}
+\pagestyle{fancy}
+\lhead{}
+\chead{{\Huge \tt Work at Home Soft S.R.L.}\\~\\~ }%\\{\tt \huge ~}\\{\tt \Large -~}}
+\rhead{}
+\lfoot{}
+\cfoot{{\small \tt Av. Maria del Carmen Rodriguez s/n, Zona Pacata Baja Cochabamba.\\ Teléfono: +591-70797024}\\{\Large \tt \url{http://github.com/workathome}}}
+\rfoot{\thepage/\pageref{LastPage}}
+\renewcommand{\headrule}{{\color{black}\hrule width\headwidth height\headrulewidth \vskip-\headrulewidth}}
+\renewcommand{\footrule}{{\color{black}%
+		\vskip-\footruleskip\vskip-\footrulewidth
+		\hrule width\headwidth height\footrulewidth\vskip\footruleskip}}
+\renewcommand{\headrulewidth}{3pt}
+\renewcommand{\footrulewidth}{3pt}
+\footskip = 32pt
+\headheight = 56pt
+\headsep = 8pt
+%--------------------------
+
+
+\newcommand\BackgroundPic{
+	\put(50,707){
+		\parbox[b][\paperheight]{\paperwidth}{%
+			%\vfill
+			%\centering
+			\includegraphics[scale=0.83]{../cartas/img/logo.png}%
+			%\vfill
+		}}}
+		
+		%---------------------------
+		\SetWatermarkAngle{0}
+		\SetWatermarkLightness{0.1}
+		%\SetWatermarkFontSize{1cm}
+		\SetWatermarkScale{3}
+		\SetWatermarkText{\includegraphics[scale=0.33]{../cartas/img/marca_agua.png}}
+		%--------------------------------------		--------------------
+		
+\begin{document}
+	
+	\tableofcontents
+	
+	\section{Historia de usuario 1}
+	\begin{center}	
+	\begin{tabular}{|p{12cm}|}
+		\hline
+		\begin{tabular}{c|c}
+			\textbf{HISTORIA DE USUARIO} & \textbf{Número: 1} \\
+		\end{tabular} \\ \hline
+		\textbf{Usuario} (Yo como): Administrador \\ \hline
+		\textbf{Nombre de la historia} (Requiero): Administración de cuentas. \\ \hline
+		\textbf{Descripción} (Para): Crear cuentas de consultores y dar de baja las cuentas que sean necesarias. \\ \hline
+		\textbf{Validación} (Criterios de aceptación): \\
+		\begin{minipage}{12cm}
+			\begin{itemize}
+				\item El administrador solamente podrá registrar cuentas de consultores.
+				\item El administrador solamente podrá dar de baja cuentas de consultores y de grupo empresas.
+				\item Cada consultor deberá tener acceso a su cuenta mediante un nombre único y una contraseña.
+				\item Ningún usuario distinto al dueño de la cuenta deberá poder ingresar a la misma.
+			\end{itemize}
+		\end{minipage} \\ \hline
+				\begin{tabular}{c|c}
+					\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+				\end{tabular} \\ \hline
+	\end{tabular}
+	\end{center}
+	
+	\section{Historia de usuario 2}
+	
+	\begin{center}	
+	\begin{tabular}{|p{12cm}|}
+		\hline
+		\begin{tabular}{c|c}
+			\textbf{HISTORIA DE USUARIO} & \textbf{Número: 2} \\
+		\end{tabular} \\ \hline
+		\textbf{Usuario} (Yo como): Grupo – Empresa \\ \hline
+		\textbf{Nombre de la historia} (Requiero): Ingresar al sistema de forma segura. \\ \hline
+		\textbf{Descripción} (Para): Ingresar como un usuario que tiene permisos para realizar las consultas y deberes específicos como Grupo – Empresa. \\ \hline
+		\textbf{Validación} (Criterios de aceptación): \\
+		\begin{minipage}{12cm}
+			\begin{itemize}
+				\item Las Grupo - Empresas deberán poder registrarse con una cuenta única, que represente a toda la grupo-empresa.
+				\item Cada Grupo – Empresa deberá poder acceder a su cuenta mediante un nombre único y una contraseña.
+				\item Ningún usuario distinto al dueño de la cuenta deberá poder ingresar a la misma.
+			\end{itemize}
+		\end{minipage} \\ \hline
+		\begin{tabular}{c|c}
+			\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+		\end{tabular} \\ \hline
+	\end{tabular}
+	\end{center}
+	
+	\section{Historia de usuario 3}
+	
+	\begin{center}	
+	\begin{tabular}{|p{12cm}|}
+		\hline
+		\begin{tabular}{c|c}
+			\textbf{HISTORIA DE USUARIO} & \textbf{Número: 3} \\
+		\end{tabular} \\ \hline
+		\textbf{Usuario} (Yo como): Consultor \\ \hline
+		\textbf{Nombre de la historia} (Requiero): Publicar documentos públicos en el Sistema. \\ \hline
+		\textbf{Descripción} (Para): Las grupo-empresas pueden descargar el documento publicado. \\ \hline
+		\textbf{Validación} (Criterios de aceptación): \\
+		\begin{minipage}{12cm}
+			\begin{itemize}
+				\item El documento debe poder publicarse por algún consultor en formato PDF.
+				\item Cada Grupo – Empresa deberá poder acceder a su cuenta mediante un nombre único y una contraseña.
+				\item El documento solamente deberá poder descargarse.
+			\end{itemize}
+		\end{minipage} \\ \hline
+		\begin{tabular}{c|c}
+			\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+		\end{tabular} \\ \hline
+	\end{tabular}
+	\end{center}
+	
+	\section{Historia de usuario 4}
+	
+	\begin{center}	
+		\begin{tabular}{|p{12cm}|}
+			\hline
+			\begin{tabular}{c|c}
+				\textbf{HISTORIA DE USUARIO} & \textbf{Número: 4} \\
+			\end{tabular} \\ \hline
+			\textbf{Usuario} (Yo como): grupo – empresa \\ \hline
+			\textbf{Nombre de la historia} (Requiero): Descargar documentos públicos subidos por los consultores. \\ \hline
+			\textbf{Descripción} (Para): Poder visualizar el documento en formato PDF. \\ \hline
+			\textbf{Validación} (Criterios de aceptación): \\
+			\begin{minipage}{12cm}
+				\begin{itemize}
+					\item El documento solamente deberá poder descargarse.
+				\end{itemize}
+			\end{minipage} \\ \hline
+			\begin{tabular}{c|c}
+				\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+			\end{tabular} \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	\section{Historia de usuario 5}	
+	
+		\begin{center}	
+			\begin{tabular}{|p{12cm}|}
+				\hline
+				\begin{tabular}{c|c}
+					\textbf{HISTORIA DE USUARIO} & \textbf{Número: 5} \\
+				\end{tabular} \\ \hline
+				\textbf{Usuario} (Yo como): Consultor \\ \hline
+				\textbf{Nombre de la historia} (Requiero): Establecer fechas o hitos de la propuesta(Actividades). \\ \hline
+				\textbf{Descripción} (Para): Definir fechas para la entrega de propuestas, ordenes de cambio y firma del contrato. \\ \hline
+				\textbf{Validación} (Criterios de aceptación): \\
+				\begin{minipage}{12cm}
+					\begin{itemize}
+						\item Estas fechas deben ser visibles para todas las grupo - empresas y consultores.
+						\item Estas fechas serán únicamente modificadas por los consultores..
+					\end{itemize}
+				\end{minipage} \\ \hline
+				\begin{tabular}{c|c}
+					\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+				\end{tabular} \\ \hline
+			\end{tabular}
+		\end{center}
+	
+	\section{Historia de usuario 6}
+	\begin{center}	
+		\begin{tabular}{|p{12cm}|}
+			\hline
+			\begin{tabular}{c|c}
+				\textbf{HISTORIA DE USUARIO} & \textbf{Número: 6} \\
+			\end{tabular} \\ \hline
+			\textbf{Usuario} (Yo como): Grupo – Empresa \\ \hline
+			\textbf{Nombre de la historia} (Requiero): Registrar los datos más importantes de los socios de la grupo – empresa. \\ \hline
+			\textbf{Descripción} (Para): El consultor podrá acceder a estos datos de ser necesario. \\ \hline
+			\textbf{Validación} (Criterios de aceptación): \\
+			\begin{minipage}{12cm}
+				\begin{itemize}
+					\item El registro consta de los siguientes datos ( nombre completo , dirección, teléfono)
+					\item Debe diferenciarse el representante legal del resto de los socios.
+					\item El consultor podrá solamente ver la información de los socios de las grupo – empresas.
+				\end{itemize}
+			\end{minipage} \\ \hline
+			\begin{tabular}{c|c}
+				\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+			\end{tabular} \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	\section{Historia de usuario 7}
+	
+	\begin{center}	
+		\begin{tabular}{|p{12cm}|}
+			\hline
+			\begin{tabular}{c|c}
+				\textbf{HISTORIA DE USUARIO} & \textbf{Número: 7} \\
+			\end{tabular} \\ \hline
+			\textbf{Usuario} (Yo como): Grupo – Empresa \\ \hline
+			\textbf{Nombre de la historia} (Requiero): Fijar un día de reunión o seguimiento semanal. \\ \hline
+			\textbf{Descripción} (Para): Tener fijo un día de reuniones en los cuales se registrara el avance del proyecto. \\ \hline
+			\textbf{Validación} (Criterios de aceptación): \\
+			\begin{minipage}{12cm}
+				\begin{itemize}
+					\item Este día seleccionado deberá mostrarse cada semana en el sistema de seguimiento del proyecto.
+				\end{itemize}
+			\end{minipage} \\ \hline
+			\begin{tabular}{c|c}
+				\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+			\end{tabular} \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	\section{Historia de usuario 8}
+	
+	\begin{center}	
+		\begin{tabular}{|p{12cm}|}
+			\hline
+			\begin{tabular}{c|c}
+				\textbf{HISTORIA DE USUARIO} & \textbf{Número: 8} \\
+			\end{tabular} \\ \hline
+			\textbf{Usuario} (Yo como): Consultor \\ \hline
+			\textbf{Nombre de la historia} (Requiero): Generar un contrato \\ \hline
+			\textbf{Descripción} (Para): Generar automáticamente un contrato con un formato establecido y con los respectivos datos de las grupo-empresas.\\ \hline
+			\textbf{Validación} (Criterios de aceptación): \\
+			\begin{minipage}{12cm}
+				\begin{itemize}
+					\item El contrato deberá mostrarse en un formato PDF.
+					\item El contrato deberá generarse con los siguientes datos requeridos (nombre largo y corto de la empresa, código de referencia a documento CPTIS, nombres de los consultores y nombre representante legal).
+				\end{itemize}
+			\end{minipage} \\ \hline
+			\begin{tabular}{c|c}
+				\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+			\end{tabular} \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	\section{Historia de usuario 9}
+	
+	\begin{center}	
+		\begin{tabular}{|p{12cm}|}
+			\hline
+			\begin{tabular}{c|c}
+				\textbf{HISTORIA DE USUARIO} & \textbf{Número: 9} \\
+			\end{tabular} \\ \hline
+			\textbf{Usuario} (Yo como): Grupo – Empresa \\ \hline
+			\textbf{Nombre de la historia} (Requiero): Subir parte A de la propuesta. \\ \hline
+			\textbf{Descripción} (Para): Subir la parte A de la propuesta al sistema. \\ \hline
+			\textbf{Validación} (Criterios de aceptación): \\
+			\begin{minipage}{12cm}
+				\begin{itemize}
+					\item El formato de la parte A de la propuesta solo se podrá subir en formato PDF.
+					\item Debe registrarse la hora y fecha de la subida de la parte A.
+					\item El documento solo lo podrán descargar la grupo - empresa a la que pertenece y el consultor.
+				\end{itemize}
+			\end{minipage} \\ \hline
+			\begin{tabular}{c|c}
+				\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+			\end{tabular} \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	\section{Historia de usuario 10}
+	
+	\begin{center}	
+		\begin{tabular}{|p{12cm}|}
+			\hline
+			\begin{tabular}{c|c}
+				\textbf{HISTORIA DE USUARIO} & \textbf{Número: 10} \\
+			\end{tabular} \\ \hline
+			\textbf{Usuario} (Yo como): Grupo – Empresa \\ \hline
+			\textbf{Nombre de la historia} (Requiero): Subir parte B de la propuesta.  \\ \hline
+			\textbf{Descripción} (Para): Subir la parte B de la propuesta al
+			sistema. \\ \hline
+			\textbf{Validación} (Criterios de aceptación): \\
+			\begin{minipage}{12cm}
+				\begin{itemize}
+					\item El formato de la parte B de la propuesta solo se podrá subir en formato PDF.
+					\item Debe registrarse la hora y fecha de la subida de la parte B.
+					\item El documento solo lo podrán descargar la grupo-empresa a la que pertenece y el consultor.
+				\end{itemize}
+			\end{minipage} \\ \hline
+			\begin{tabular}{c|c}
+				\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+			\end{tabular} \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	\section{Historia de usuario 11}
+	
+	\begin{center}	
+		\begin{tabular}{|p{12cm}|}
+			\hline
+			\begin{tabular}{c|c}
+				\textbf{HISTORIA DE USUARIO} & \textbf{Número: 11} \\
+			\end{tabular} \\ \hline
+			\textbf{Usuario} (Yo como): Consultor \\ \hline
+			\textbf{Nombre de la historia} (Requiero): Lista de las propuestas subidas al sistema. \\ \hline
+			\textbf{Descripción} (Para): Poder descargar las propuestas (parte A, parte B) y diferenciarlas de las que llegaron a destiempo. \\ \hline
+			\textbf{Validación} (Criterios de aceptación): \\
+			\begin{minipage}{12cm}
+				\begin{itemize}
+					\item Diferenciar las propuestas por fecha de subida (las propuestas que llegaron a destiempo, deben diferenciarse de las demás).
+				\end{itemize}
+			\end{minipage} \\ \hline
+			\begin{tabular}{c|c}
+				\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+			\end{tabular} \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	\section{Historia de usuario 12}
+	
+	\begin{center}	
+		\begin{tabular}{|p{12cm}|}
+			\hline
+			\begin{tabular}{c|c}
+				\textbf{HISTORIA DE USUARIO} & \textbf{Número: 12} \\
+			\end{tabular} \\ \hline
+			\textbf{Usuario} (Yo como): Grupo – Empresa \\ \hline
+			\textbf{Nombre de la historia} (Requiero): Registrar un avance semanal. \\ \hline
+			\textbf{Descripción} (Para): Poder demostrar que la empresa está cumpliendo con el plan especificado. \\ \hline
+			\textbf{Validación} (Criterios de aceptación): \\
+			\begin{minipage}{12cm}
+				\begin{itemize}
+					\item Los registros deberán ser realizados el día acordado según calendario.
+					\item Los avances registrados, los podrán visualizar tanto las grupo empresas como los consultores.
+					\item El registro de los avances serán de forma literal.
+					\item Los avances registrados no se podrán modificar ni eliminar por ningún consultor o grupo empresa.
+				\end{itemize}
+			\end{minipage} \\ \hline
+			\begin{tabular}{c|c}
+				\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+			\end{tabular} \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	\section{Historia de usuario 13}
+	
+	\begin{center}	
+		\begin{tabular}{|p{12cm}|}
+			\hline
+			\begin{tabular}{c|c}
+				\textbf{HISTORIA DE USUARIO} & \textbf{Número: 13} \\
+			\end{tabular} \\ \hline
+			\textbf{Usuario} (Yo como): Consultor \\ \hline
+			\textbf{Nombre de la historia} (Requiero): Visualizar la intención de avance de cada grupo-empresa y registrar el avance realizado \\ \hline
+			\textbf{Descripción} (Para): Verificar que cada grupo-empresa está cumpliendo con el plan propuesto. \\ \hline
+			\textbf{Validación} (Criterios de aceptación): \\
+			\begin{minipage}{12cm}
+				\begin{itemize}
+					\item El consultor podrá visualizar la intención de avance de cada grupo empresa.
+					\item El consultor podrá registrar un detalle acerca el avance de cada grupo empresa.
+					\item El consultor podrá registrar observaciones acerca el avance de cada grupo empresa.
+					\item El registro de observaciones solo debe ser visualizado por el mismo consultor.
+				\end{itemize}
+			\end{minipage} \\ \hline
+			\begin{tabular}{c|c}
+				\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+			\end{tabular} \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	\section{Historia de usuario 14}
+	
+	\begin{center}	
+		\begin{tabular}{|p{12cm}|}
+			\hline
+			\begin{tabular}{c|c}
+				\textbf{HISTORIA DE USUARIO} & \textbf{Número: 14} \\
+			\end{tabular} \\ \hline
+			\textbf{Usuario} (Yo como): Consultor \\ \hline
+			\textbf{Nombre de la historia} (Requiero): una forma de aclarar a las grupo empresas acerca de la convocatoria y el pliego de especificaciones \\ \hline
+			\textbf{Descripción} (Para): poder aclarar cualquier duda de las grupo empresas acerca de la convocatoria y el pliego de especificaciones \\ \hline
+			\textbf{Validación} (Criterios de aceptación): \\
+			\begin{minipage}{12cm}
+				\begin{itemize}
+					\item Proponer y responder dudas a través de un foro.
+					\item Cualquier usuario puede acceder al foro.
+				\end{itemize}
+			\end{minipage} \\ \hline
+			\begin{tabular}{c|c}
+				\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+			\end{tabular} \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	\section{Historia de usuario 15}
+	
+	\begin{center}	
+		\begin{tabular}{|p{12cm}|}
+			\hline
+			\begin{tabular}{c|c}
+				\textbf{HISTORIA DE USUARIO} & \textbf{Número: 15} \\
+			\end{tabular} \\ \hline
+			\textbf{Usuario} (Yo como): Consultor \\ \hline
+			\textbf{Nombre de la historia} (Requiero): Visualizar bitácora de actividades\\ \hline
+			\textbf{Descripción} (Para): Poder ver todas las actividades de las grupo empresas en el sistema \\ \hline
+			\textbf{Validación} (Criterios de aceptación): \\
+			\begin{minipage}{12cm}
+				\begin{itemize}
+					\item Todas las actividades de subida de archivos que realicen las grupo empresas deben registrarse en la bitácora.
+					\item La bitácora de actividades podrá ser visualizada por las grupo-empresas y el consultor respectivo.
+					\item Todo registro de actividad contara con hora y fecha.
+				\end{itemize}
+			\end{minipage} \\ \hline
+			\begin{tabular}{c|c}
+				\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+			\end{tabular} \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	\section{Historia de usuario 16}
+	
+	\begin{center}	
+		\begin{tabular}{|p{12cm}|}
+			\hline
+			\begin{tabular}{c|c}
+				\textbf{HISTORIA DE USUARIO} & \textbf{Número: 16} \\
+			\end{tabular} \\ \hline
+			\textbf{Usuario} (Yo como): Consultor \\ \hline
+			\textbf{Nombre de la historia} (Requiero): Crear un proyecto \\ \hline
+			\textbf{Descripción} (Para): Poder registrar un código del proyecto. \\ \hline
+			\textbf{Validación} (Criterios de aceptación): \\
+			\begin{minipage}{12cm}
+				\begin{itemize}
+					\item Las grupo-empresas puedan registrarse según el proyecto vigente.
+					\item Solo puede existir un proyecto vigente.
+					\item El proyecto debe poderse dar de baja.
+				\end{itemize}
+			\end{minipage} \\ \hline
+			\begin{tabular}{c|c}
+				\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+			\end{tabular} \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	\section{Historia de usuario 17}
+	
+	\begin{center}	
+		\begin{tabular}{|p{12cm}|}
+			\hline
+			\begin{tabular}{c|c}
+				\textbf{HISTORIA DE USUARIO} & \textbf{Número: 17} \\
+			\end{tabular} \\ \hline
+			\textbf{Usuario} (Yo como): Grupo-empresa \\ \hline
+			\textbf{Nombre de la historia} (Requiero): Registrar un plan de pagos \\ \hline
+			\textbf{Descripción} (Para): poder tener un calendario de seguimiento. \\ \hline
+			\textbf{Validación} (Criterios de aceptación): \\
+			\begin{minipage}{12cm}
+				\begin{itemize}
+					\item Los hitos del plan no pueden ser modificados.
+					\item Las fechas de pago deben ser sincronizadas con un calendario.
+					\item La suma total de los montos por cada hito debe ser el total a pagar por el proyecto.
+				\end{itemize}
+			\end{minipage} \\ \hline
+			\begin{tabular}{c|c}
+				\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+			\end{tabular} \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	\section{Historia de usuario 18}
+	
+	\begin{center}	
+		\begin{tabular}{|p{12cm}|}
+			\hline
+			\begin{tabular}{c|c}
+				\textbf{HISTORIA DE USUARIO} & \textbf{Número: 18} \\
+			\end{tabular} \\ \hline
+			\textbf{Usuario} (Yo como): Consultor \\ \hline
+			\textbf{Nombre de la historia} (Requiero): realizar una evaluación final \\ \hline
+			\textbf{Descripción} (Para): Determinar la nota final de cada grupo-empresa \\ \hline
+			\textbf{Validación} (Criterios de aceptación): \\
+			\begin{minipage}{12cm}
+				\begin{itemize}
+					\item Los criterios de evaluación pueden ser ilimitados
+					\item El tipo de calificación de cada criterio puede ser diferente para cada uno de ellos.
+					\item Cada criterio puede tener un porcentaje de calificación independiente.
+				\end{itemize}
+			\end{minipage} \\ \hline
+			\begin{tabular}{c|c}
+				\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+			\end{tabular} \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	\section{Historia de usuario 19}	
+	
+	\begin{center}	
+		\begin{tabular}{|p{12cm}|}
+			\hline
+			\begin{tabular}{c|c}
+				\textbf{HISTORIA DE USUARIO} & \textbf{Número: 19} \\
+			\end{tabular} \\ \hline
+			\textbf{Usuario} (Yo como): Consultor \\ \hline
+			\textbf{Nombre de la historia} (Requiero): registro de hitos aprobados \\ \hline
+			\textbf{Descripción} (Para): Tener un seguimiento de los hitos aprobados por el consultor a la grupo-empresa. \\ \hline
+			\textbf{Validación} (Criterios de aceptación): \\
+			\begin{minipage}{12cm}
+				\begin{itemize}
+					\item Los valores de los pagos establecidos por la grupo empresa no pueden ser modificados por ningún consultor o grupo empresa una vez establecido.
+					\item La fecha de pago debe hacer referencia a un hito pagable registrado por la grupo empresa.
+					\item Se registrara el número de factura correspondiente a cada pago.
+					\item El valor de un pago nunca puede ser negativo.
+				\end{itemize}
+			\end{minipage} \\ \hline
+			\begin{tabular}{c|c}
+				\textbf{Prioridad en el negocio: 1} & \textbf{Puntos de esfuerzo: 4} \\
+			\end{tabular} \\ \hline
+		\end{tabular}
+	\end{center}
+	
+\end{document}
