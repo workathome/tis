@@ -1,0 +1,104 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="849" measuredH="658" mockupW="785" mockupH="594">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="64" y="64" w="785" h="594" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Firefox%0Ahttp%3A//sistematis.bo/admin</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="81" y="201" w="751" h="-1" measuredW="100" measuredH="10" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::SubTitle" x="121" y="161" w="-1" h="-1" measuredW="41" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>TIS</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="81" y="164" w="-1" h="-1" measuredW="47" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>logo%20de%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="197" y="157" w="-1" h="-1" measuredW="48" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Noticias</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="276" y="157" w="-1" h="-1" measuredW="26" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Foro</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Image" x="709" y="147" w="38" h="41" measuredW="126" measuredH="125" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/miniperfil.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="753" y="157" w="-1" h="-1" measuredW="58" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Consultor</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Image" x="817" y="162" w="15" h="10" measuredW="181" measuredH="117" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/triangulo.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::SubTitle" x="162" y="235" w="-1" h="-1" measuredW="112" measuredH="27" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Proyecto%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Button" x="566" y="299" w="105" h="27" measuredW="96" measuredH="27" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>Documentos</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Button" x="566" y="270" w="105" h="27" measuredW="92" measuredH="27" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>Actividades</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Button" x="566" y="330" w="105" h="26" measuredW="58" measuredH="27" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2848996</color>
+        <text>Editar</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Calendar" x="721" y="235" w="-1" h="-1" measuredW="96" measuredH="96" zOrder="13" locked="false" isInGroup="-1"/>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="162" y="211" w="-1" h="-1" measuredW="274" measuredH="24" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Actividades%2C%20Proyectos%2C%20Proyecto%201%2C%20Editar</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="174" y="279" w="-1" h="-1" measuredW="120" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Nombre%20de%20Proyecto</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::TextInput" x="302" y="276" w="195" h="-1" measuredW="75" measuredH="27" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Proyecto%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Label" x="250" y="317" w="-1" h="-1" measuredW="46" measuredH="21" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Gestion</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::TextInput" x="302" y="314" w="195" h="-1" measuredW="58" measuredH="27" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>II-2014</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Button" x="301" y="357" w="-1" h="-1" measuredW="71" measuredH="27" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Guardar</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Button" x="418" y="357" w="-1" h="-1" measuredW="77" measuredH="27" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Cancelar</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
