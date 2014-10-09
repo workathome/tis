@@ -36,59 +36,48 @@
         <src>./assets/triangulo.png</src>
       </controlProperties>
     </control>
-    <control controlID="8" controlTypeID="com.balsamiq.mockups::Button" x="75" y="183" w="101" h="27" measuredW="77" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
-      <controlProperties>
-        <color>16777215</color>
-        <text>Registrar</text>
-      </controlProperties>
-    </control>
-    <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="75" y="210" w="101" h="27" measuredW="58" measuredH="27" zOrder="9" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Editar</text>
-      </controlProperties>
-    </control>
-    <control controlID="10" controlTypeID="com.balsamiq.mockups::Button" x="75" y="237" w="101" h="27" measuredW="93" measuredH="27" zOrder="10" locked="false" isInGroup="-1">
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Button" x="191" y="381" w="101" h="27" measuredW="71" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <color>2848996</color>
-        <text>Dar%20de%20baja</text>
+        <text>Agregar</text>
       </controlProperties>
     </control>
-    <control controlID="11" controlTypeID="com.balsamiq.mockups::DataGrid" x="239" y="210" w="499" h="171" measuredW="302" measuredH="171" zOrder="11" locked="false" isInGroup="-1">
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::DataGrid" x="191" y="210" w="547" h="171" measuredW="302" measuredH="171" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Numero%2C%20Nombres%20%5Ev%2C%20Nickname%20%5Ev%2C%20Estado%0A1%2CJuan%20Perez%20%2C%20juanperez%2C%20%0A2%2CFernando%20Rojas%2C%20fernando%2C%20%0A3%2CMaria%20Ribera%2C%20maribera%2C%20%0A4%2CValeria%20Delgado%2C%20vadel%2C%20%0A5%2CGuido%20Villazon%2C%20guido%2C%20%0A%7B0L%2C%2025L%2C%2015L%2C%2020L%7D</text>
       </controlProperties>
     </control>
-    <control controlID="12" controlTypeID="com.balsamiq.mockups::Button" x="596" y="228" w="127" h="27" measuredW="64" measuredH="27" zOrder="12" locked="false" isInGroup="-1">
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Button" x="596" y="228" w="127" h="27" measuredW="64" measuredH="27" zOrder="10" locked="false" isInGroup="-1">
       <controlProperties>
         <color>2848996</color>
         <text>Activar</text>
       </controlProperties>
     </control>
-    <control controlID="13" controlTypeID="com.balsamiq.mockups::Button" x="596" y="255" w="127" h="27" measuredW="93" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Button" x="596" y="255" w="127" h="27" measuredW="93" measuredH="27" zOrder="11" locked="false" isInGroup="-1">
       <controlProperties>
         <color>13369344</color>
         <text>Dar%20de%20baja</text>
       </controlProperties>
     </control>
-    <control controlID="14" controlTypeID="com.balsamiq.mockups::Button" x="596" y="289" w="127" h="27" measuredW="64" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Button" x="596" y="289" w="127" h="27" measuredW="64" measuredH="27" zOrder="12" locked="false" isInGroup="-1">
       <controlProperties>
         <color>2848996</color>
         <text>Activar</text>
       </controlProperties>
     </control>
-    <control controlID="15" controlTypeID="com.balsamiq.mockups::Button" x="596" y="320" w="127" h="27" measuredW="93" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Button" x="596" y="320" w="127" h="27" measuredW="93" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
         <color>13369344</color>
         <text>Dar%20de%20baja</text>
       </controlProperties>
     </control>
-    <control controlID="16" controlTypeID="com.balsamiq.mockups::Button" x="596" y="351" w="127" h="27" measuredW="93" measuredH="27" zOrder="16" locked="false" isInGroup="-1">
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Button" x="596" y="351" w="127" h="27" measuredW="93" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
       <controlProperties>
         <color>13369344</color>
         <text>Dar%20de%20baja</text>
       </controlProperties>
     </control>
-    <control controlID="17" controlTypeID="com.balsamiq.mockups::Label" x="269" y="129" w="-1" h="-1" measuredW="26" measuredH="21" zOrder="17" locked="false" isInGroup="-1">
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Label" x="269" y="129" w="-1" h="-1" measuredW="26" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Foro</text>
       </controlProperties>
